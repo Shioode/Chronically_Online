@@ -3,17 +3,13 @@ using UnityEngine;
 public class furroScript : MonoBehaviour
 {
     public int valor = 1;
-    public GameObject = puntosObj;
-
+    public GameObject ObjPuntos;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() { }
 
     // Update is called once per frame
-    void Update() {
-
-        if()
-     }
+    void Update() { }
 
     public void OnMouseClick1()
     {
