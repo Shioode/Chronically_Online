@@ -52,8 +52,8 @@ TemporaryDependencyNodeTargetIdentifier=netstandard2.1
 [sourceFiles]
 Assets/Scripts/
  furroScript.cs
+ gameManagerFurros.cs
  gameManagerSpam.cs
- Puntaje.cs
  ventanaScript.cs
 Temp/obj/Assembly-CSharp/.NETStandard,Version=v2.1.AssemblyAttributes.cs
 
