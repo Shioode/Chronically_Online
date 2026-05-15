@@ -7,4 +7,22 @@ public class furroScript : MonoBehaviour
 
     // Update is called once per frame
     void Update() { }
+
+    public void OnMouseClick1()
+    {
+        gameObject.SetActive(false);
+        gameManagerSpam.puntosGatita = +1;
+    }
+
+     public void OnMouseClick2()
+    {
+        gameObject.SetActive(false);
+        gameManagerSpam.puntosZorrona = +1;
+    }
+
+     public void OnMouseClick3()
+    {
+        gameObject.SetActive(false);
+        gameManagerSpam.puntosCaballito = +1;
+    }
 }
