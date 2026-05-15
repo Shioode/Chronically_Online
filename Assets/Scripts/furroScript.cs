@@ -2,27 +2,34 @@ using UnityEngine;
 
 public class furroScript : MonoBehaviour
 {
+    public int valor = 1;
+    public GameObject = puntosObj;
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() { }
 
     // Update is called once per frame
-    void Update() { }
+    void Update() {
+
+        if()
+     }
 
     public void OnMouseClick1()
     {
         gameObject.SetActive(false);
-        gameManagerSpam.puntosGatita = +1;
+        gameManagerSpam.puntosGatita += valor;
     }
 
-     public void OnMouseClick2()
+    public void OnMouseClick2()
     {
         gameObject.SetActive(false);
-        gameManagerSpam.puntosZorrona = +1;
+        gameManagerSpam.puntosZorrona += valor;
     }
 
-     public void OnMouseClick3()
+    public void OnMouseClick3()
     {
         gameObject.SetActive(false);
-        gameManagerSpam.puntosCaballito = +1;
+        gameManagerSpam.puntosCaballito += valor;
     }
 }

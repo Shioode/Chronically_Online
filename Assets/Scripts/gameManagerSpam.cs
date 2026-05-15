@@ -19,9 +19,9 @@ public class gameManagerSpam : MonoBehaviour
         Gatita.SetActive(true);
         Zorrona.SetActive(false);
         Caballito.SetActive(false);
-        //Debug.Log("puntosGatita");
-        //Debug.Log("puntosZorrona");
-        // Debug.Log("puntosCaballito");
+        Debug.Log("puntosGatita");
+        Debug.Log("puntosZorrona");
+        Debug.Log("puntosCaballito");
     }
 
     // Update is called once per frame
