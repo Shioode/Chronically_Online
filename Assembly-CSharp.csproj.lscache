@@ -51,6 +51,9 @@ TemporaryDependencyNodeTargetIdentifier=netstandard2.1
 
 [sourceFiles]
 Assets/Scripts/
+ gameManagerSpam.cs
+ spawnScript.cs
+ timerScript.cs
  furroScript.cs
  gameManagerFurros.cs
  gameManagerSpam.cs
@@ -58,6 +61,7 @@ Assets/Scripts/
 Temp/obj/Assembly-CSharp/.NETStandard,Version=v2.1.AssemblyAttributes.cs
 
 [metadataReferences]
+../../../../../../Program Files/Unity/Hub/Editor/6000.3.14f1/Editor/Data/Managed/UnityEngine/
 ../../../../../Program Files/Unity/Hub/Editor/6000.3.14f1/Editor/Data/Managed/UnityEngine/
  UnityEditor.AccessibilityModule.dll
  UnityEditor.AdaptivePerformanceModule.dll
@@ -192,7 +196,7 @@ Temp/obj/Assembly-CSharp/.NETStandard,Version=v2.1.AssemblyAttributes.cs
  UnityEngine.VRModule.dll
  UnityEngine.WindModule.dll
  UnityEngine.XRModule.dll
-../../../../../Program Files/Unity/Hub/Editor/6000.3.14f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/
+../../../../../../Program Files/Unity/Hub/Editor/6000.3.14f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/
  mscorlib.dll
  System.ComponentModel.Composition.dll
  System.Core.dll
@@ -210,7 +214,7 @@ Temp/obj/Assembly-CSharp/.NETStandard,Version=v2.1.AssemblyAttributes.cs
  System.Xml.dll
  System.Xml.Linq.dll
  System.Xml.Serialization.dll
-../../../../../Program Files/Unity/Hub/Editor/6000.3.14f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/
+../../../../../../Program Files/Unity/Hub/Editor/6000.3.14f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/
  Microsoft.Win32.Primitives.dll
  System.AppContext.dll
  System.Buffers.dll
@@ -314,7 +318,7 @@ Temp/obj/Assembly-CSharp/.NETStandard,Version=v2.1.AssemblyAttributes.cs
  System.Xml.XmlSerializer.dll
  System.Xml.XPath.dll
  System.Xml.XPath.XDocument.dll
-../../../../../Program Files/Unity/Hub/Editor/6000.3.14f1/Editor/Data/NetStandard/
+../../../../../../Program Files/Unity/Hub/Editor/6000.3.14f1/Editor/Data/NetStandard/
  Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll
  ref/2.1.0/netstandard.dll
 Library/PackageCache/com.unity.collections@12999e356c23/
