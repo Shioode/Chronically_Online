@@ -53,7 +53,7 @@ TemporaryDependencyNodeTargetIdentifier=netstandard2.1
 Assets/Scripts/
  gameManagerSpam.cs
  spawnScript.cs
- testScript.cs
+ timerScript.cs
  ventanaScript.cs
 Temp/obj/Assembly-CSharp/.NETStandard,Version=v2.1.AssemblyAttributes.cs
 

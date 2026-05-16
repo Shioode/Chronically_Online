@@ -24,6 +24,6 @@ public class ventanaScript : MonoBehaviour
 
     public void OnMouseClick()
     {
-        gameObject.SetActive(false);
+        Destroy(this.gameObject);
     }
 }
