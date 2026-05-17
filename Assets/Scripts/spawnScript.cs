@@ -12,16 +12,22 @@ public class spawnScript : MonoBehaviour
     public float minY = -8.0f;
     public float maxY = 8.0f;
 
+    public timerScript timerElScript;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         // anuncio = GameObject.Find("Spam");
+        timerElScript = FindFirstObjectByType<timerScript>();
         StartCoroutine(Spawnear());
         // Instantiate(anuncio, posicion, Quaternion.identity);
     }
 
     // Update is called once per frame
-    void Update() { }
+    void Update()
+    {
+        // Debug.Log("Tiempo restante:" + timerElScript.time_Left);
+    }
 
     public IEnumerator Spawnear()
     {
@@ -35,6 +41,10 @@ public class spawnScript : MonoBehaviour
                 posicion,
                 Quaternion.identity
             );
+            if (timerElScript.time_Left <= 0)
+            {
+                yield break;
+            }
 
             yield return new WaitForSeconds(0.5f);
         }
