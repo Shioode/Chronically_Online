@@ -28,9 +28,8 @@ public class GachaSystem : MonoBehaviour
     public GameObject boton;
 
     GameObject Gacha;
-    GameObject Contrato;
 
-    GameObject pantallaFinalContrato;
+    GameObject Contrato;
 
     Animator controlAnimacion;
 
@@ -42,12 +41,13 @@ public class GachaSystem : MonoBehaviour
     void Start()
     {
         Gacha = GameObject.Find("pantallaGacha");
-        Contrato = GameObject.Find("contratoImagen");
-        pantallaFinalContrato = GameObject.Find("finalContrato");
+        Contrato = GameObject.Find("contrato");
+        Debug.Log(Contrato);
+
         //videoUIcomun = GameObject.Find("videoGachaComun");
         //videoUIraro = GameObject.Find("videoGachaRaro");
+
         Contrato.SetActive(false);
-        pantallaFinalContrato.SetActive(false);
         //videoUIcomun.SetActive(false);
         //videoUIraro.SetActive(false);
         controlAnimacion = GetComponent<Animator>();
@@ -113,7 +113,10 @@ public class GachaSystem : MonoBehaviour
 
     //METODO DE REGALO COMUN
 
-    private void OnComonReward() { }
+    private void OnComonReward()
+    {
+        Contrato.SetActive(true);
+    }
 
     //METODO DE REGALO RARO
 
