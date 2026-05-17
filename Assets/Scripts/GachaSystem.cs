@@ -30,6 +30,8 @@ public class GachaSystem : MonoBehaviour
 
     GameObject pantallaFinalContrato;
 
+    Animator controlAnimacion;
+
     //GameObject comun;
 
     //GameObject raro;
@@ -46,6 +48,7 @@ public class GachaSystem : MonoBehaviour
         pantallaFinalContrato.SetActive(false);
         //videoUIcomun.SetActive(false);
         //videoUIraro.SetActive(false);
+        controlAnimacion = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -73,6 +76,7 @@ public class GachaSystem : MonoBehaviour
             //videoUIraro.loopPointReached += OnVideoEnd;
             //PlayVideo(videoRaro);
             Debug.Log("¡Conseguiste trabajo!");
+            controlAnimacion.SetTrigger("activaComun");
             OnRareReward();
         }
         else
