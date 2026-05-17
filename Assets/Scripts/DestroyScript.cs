@@ -12,4 +12,11 @@ public class DestroyScript : MonoBehaviour
     {
         Destroy(gameObject);
     }
+
+    /*public void DestruirYSeguir()
+    {
+        Destroy(gameObject);
+
+    }
+    */
 }

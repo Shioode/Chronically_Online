@@ -25,6 +25,8 @@ public class GachaSystem : MonoBehaviour
 
     //public GameObject videoUIraro;
 
+    public GameObject boton;
+
     GameObject Gacha;
     GameObject Contrato;
 
@@ -56,8 +58,9 @@ public class GachaSystem : MonoBehaviour
 
     public void OnMouseClickGacha()
     {
-        PullGacha();
         gameObject.SetActive(false);
+        PullGacha();
+        //Destroy(GameObject.);
     }
 
     public void PullGacha()
@@ -85,6 +88,7 @@ public class GachaSystem : MonoBehaviour
             //videoUIcomun.SetActive(true);
             Debug.Log("nadie te quiere, sigues siendo pobre.");
             //PlayVideo(videoComun);
+            controlAnimacion.SetTrigger("activaRare");
             OnComonReward();
         }
     }
@@ -117,4 +121,10 @@ public class GachaSystem : MonoBehaviour
     {
         Contrato.SetActive(true);
     }
+
+    /*public void DestruirBoton()
+    {
+        Destroy(gameObject);
+    }
+    */
 }
