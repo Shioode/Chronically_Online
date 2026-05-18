@@ -2,7 +2,6 @@ using System;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.Video;
 using Random = UnityEngine.Random;
 
 public class GachaSystem : MonoBehaviour
@@ -15,42 +14,29 @@ public class GachaSystem : MonoBehaviour
     [SerializeField]
     private int rareChance = 5;
 
-    //[SerializeField]
-    // private VideoPlayer videoComun;
-
-    //[SerializeField]
-    //private VideoPlayer videoRaro;
-
-    //public GameObject videoUIcomun;
-
-    //public GameObject videoUIraro;
-
     public GameObject boton;
 
     GameObject Gacha;
 
-    GameObject Contrato;
+    public GameObject Contrato;
+
+    public GameObject ImagenFail;
 
     Animator controlAnimacion;
 
-    //GameObject comun;
-
-    //GameObject raro;
+    Animator anim;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         Gacha = GameObject.Find("pantallaGacha");
-        Contrato = GameObject.Find("contrato");
-        Debug.Log(Contrato);
-
-        //videoUIcomun = GameObject.Find("videoGachaComun");
-        //videoUIraro = GameObject.Find("videoGachaRaro");
-
+        //Contrato = GameObject.Find("contrato");
+        //ImagenFail = GameObject.Find("todoMal");
+        //Debug.Log(Contrato);
+        ImagenFail.SetActive(false);
         Contrato.SetActive(false);
-        //videoUIcomun.SetActive(false);
-        //videoUIraro.SetActive(false);
         controlAnimacion = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -59,75 +45,50 @@ public class GachaSystem : MonoBehaviour
     public void OnMouseClickGacha()
     {
         gameObject.SetActive(false);
+        Gacha.SetActive(false);
         PullGacha();
-        //Destroy(GameObject.);
     }
 
     public void PullGacha()
     {
-        Gacha.SetActive(false);
+        //Gacha.SetActive(false);
         //GENERAR NUMERO DE 0 A 100
 
         int random = Random.Range(0, 101);
 
         //PROBABILIDADES
 
-        if (random < rareChance)
+        if (random > rareChance)
         {
-            Gacha.SetActive(false);
-            //videoUIraro.SetActive(true);
-            //videoUIraro.loopPointReached += OnVideoEnd;
-            //PlayVideo(videoRaro);
-            Debug.Log("¡Conseguiste trabajo!");
+            //Gacha.SetActive(false);
             controlAnimacion.SetTrigger("activaComun");
+            ImagenFail.SetActive(true);
+            Debug.Log("¡Conseguiste trabajo!");
             OnRareReward();
         }
         else
         {
-            Gacha.SetActive(false);
-            //videoUIcomun.SetActive(true);
+            //Gacha.SetActive(false);
+            anim.SetTrigger("activaRare");
+            Contrato.SetActive(true);
             Debug.Log("nadie te quiere, sigues siendo pobre.");
-            //PlayVideo(videoComun);
-            controlAnimacion.SetTrigger("activaRare");
             OnComonReward();
         }
     }
-
-    //INTENTO DE PONER VIDEOS Y CERRARLOS
-
-    /*void OnVideoEnd()
-    {
-        videoUIcomun.SetActive(false);
-    }
-
-    //PONER VIDEOS
-
-    private void PlayVideo(VideoPlayer videoPlayer)
-    {
-        if (videoPlayer != null && !videoPlayer.isPlaying)
-        {
-            videoPlayer.Play();
-        }
-    }
-    */
 
     //METODO DE REGALO COMUN
 
     private void OnComonReward()
     {
-        Contrato.SetActive(true);
+        //ImagenFail.SetActive(true);
+        //Debug.Log("¡Conseguiste trabajo!");
     }
 
     //METODO DE REGALO RARO
 
     private void OnRareReward()
     {
-        Contrato.SetActive(true);
+        //Contrato.SetActive(true);
+        //Debug.Log("nadie te quiere, sigues siendo pobre.");
     }
-
-    /*public void DestruirBoton()
-    {
-        Destroy(gameObject);
-    }
-    */
 }

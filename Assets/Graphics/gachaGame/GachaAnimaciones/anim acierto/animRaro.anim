@@ -256,7 +256,7 @@ AnimationClip:
   - time: 5.1666665
     functionName: Destruirbjeto
     data: 
-    objectReferenceParameter: {fileID: 0}
+    objectReferenceParameter: {fileID: 11500000, guid: bc5f67688888bef42b6c7ce91662a6ee, type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
