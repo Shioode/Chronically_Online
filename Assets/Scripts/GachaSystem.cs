@@ -14,7 +14,7 @@ public class GachaSystem : MonoBehaviour
     [SerializeField]
     private int rareChance = 5;
 
-    public GameObject boton;
+    //spublic GameObject boton;
 
     GameObject Gacha;
 
@@ -63,7 +63,8 @@ public class GachaSystem : MonoBehaviour
             //Gacha.SetActive(false);
             controlAnimacion.SetTrigger("activaComun");
             ImagenFail.SetActive(true);
-            Debug.Log("¡Conseguiste trabajo!");
+            Debug.Log("nadie te quiere, sigues siendo pobre.");
+
             OnRareReward();
         }
         else
@@ -71,7 +72,8 @@ public class GachaSystem : MonoBehaviour
             //Gacha.SetActive(false);
             anim.SetTrigger("activaRare");
             Contrato.SetActive(true);
-            Debug.Log("nadie te quiere, sigues siendo pobre.");
+            Debug.Log("¡Conseguiste trabajo!");
+
             OnComonReward();
         }
     }
