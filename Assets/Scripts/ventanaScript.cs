@@ -25,5 +25,7 @@ public class ventanaScript : MonoBehaviour
     public void OnMouseClick()
     {
         Destroy(this.gameObject);
+        gameManagerSpam.puntosSpam += 1;
+        Debug.Log("Puntos:" + gameManagerSpam.puntosSpam);
     }
 }
