@@ -1,10 +1,4 @@
 ﻿<Solution>
-  <Project Path="XNodeEditor.csproj" />
-  <Project Path="EasyDialogue.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
-  <Project Path="XNode.csproj" />
   <Project Path="Assembly-CSharp-Editor.csproj" />
-  <Project Path="SerializableDictEditor.csproj" />
-  <Project Path="SerializableDict.csproj" />
-  <Project Path="EasyDialogueEditor.csproj" />
 </Solution>
