@@ -86,6 +86,7 @@ public class GameManagerForm : MonoBehaviour
    public GameObject Button2;
    public GameObject Button3;
    public GameObject Button4;
+   public GameObject boton_siguiente4;
 
 
    public Button casilla_correcta1;
@@ -318,6 +319,7 @@ public class GameManagerForm : MonoBehaviour
    {
        terceraPantalla.SetActive(false);
        cuarta_pantalla.SetActive(true);
+       boton_siguiente4.SetActive(false);
        casilla_correcta1.gameObject.SetActive(false);
        casilla_correcta2.gameObject.SetActive(false);
        casilla_correcta3.gameObject.SetActive(false);
@@ -346,21 +348,33 @@ public class GameManagerForm : MonoBehaviour
        Button4.SetActive(false);
        casilla_correcta4.gameObject.SetActive(true);
    }
-   public void seleccionar_correcto1()
+   public void SeleccionarCorrecto(Button boton)
+    {
+        Debug.Log("Seleccionarcorrecto llama");
+        if (botonActual != null)
+        {
+            botonActual.GetComponent<Image>().sprite = boton_normal;
+        }
+        botonActual = boton;
+        botonActual.GetComponent<Image>().sprite = boton_seleccionado;
+        boton_siguiente4.SetActive(true);
+    }
+
+   public void Seleccionar_correcto1()
    {
        Debug.Log("SeleccionarCorrecto1 llamada");
-       SeleccionarBoton(casilla_correcta1);
+       SeleccionarCorrecto(casilla_correcta1);
    }
-   public void seleccionar_correcto2()
+   public void Seleccionar_correcto2()
    {
-       SeleccionarBoton(casilla_correcta2);
+       SeleccionarCorrecto(casilla_correcta2);
    }
-   public void seleccionar_correcto3()
+   public void Seleccionar_correcto3()
    {
-       SeleccionarBoton(casilla_correcta3);
+       SeleccionarCorrecto(casilla_correcta3);
    }
-   public void seleccionar_correcto4()
+   public void Seleccionar_correcto4()
    {
-       SeleccionarBoton(casilla_correcta4);
+       SeleccionarCorrecto(casilla_correcta4);
    }
 }
