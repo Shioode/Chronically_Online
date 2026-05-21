@@ -65,13 +65,18 @@ public class GameManagerForm : MonoBehaviour
 
     private Button botonActual = null;
 
+    //para pasar a la cuarta pantalla
+    public GameObject boton_siguiente3;
+    public GameObject cuarta_pantalla;
+
     void Start()
     {
         primeraPantalla.SetActive(true);
         segundaPantalla.SetActive(false);
         terceraPantalla.SetActive(false);
-
+        cuarta_pantalla.SetActive(false);
         boton_siguiente2.SetActive(false);
+        Debug.Log("Script iniciado correctamente");
     }
 
     //casillas
@@ -107,6 +112,7 @@ public class GameManagerForm : MonoBehaviour
     // pasar a segunda pantalla
     public void IrASegundaPantalla()
     {
+        Debug.Log("IrASegundaPantalla llamada");
         primeraPantalla.SetActive(false);
         segundaPantalla.SetActive(true);
         rellenar_texto.text = "";
@@ -143,6 +149,7 @@ public class GameManagerForm : MonoBehaviour
     {
         segundaPantalla.SetActive(false);
         terceraPantalla.SetActive(true);
+        boton_siguiente3.SetActive(false);
         rellenar_texto.text = "";
         rellenar_texto.ActivateInputField();
         boton_letra1.onClick.AddListener(CambiarLetra1);
@@ -253,6 +260,7 @@ public class GameManagerForm : MonoBehaviour
         }
         botonActual = boton;
         botonActual.GetComponent<Image>().sprite = boton_seleccionado;
+        boton_siguiente3.SetActive(true);
     }
     public void SeleccionarBoton1() 
     {
@@ -271,4 +279,10 @@ public class GameManagerForm : MonoBehaviour
         SeleccionarBoton(boton4);
     }
     
+    //cuarta pantalla
+    public void IrACuartaPantalla()
+    {
+        terceraPantalla.SetActive(false);
+        cuarta_pantalla.SetActive(true);
+    }
 }
