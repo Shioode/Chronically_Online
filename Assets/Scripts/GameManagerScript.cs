@@ -7,7 +7,8 @@ public class GameManagerForm : MonoBehaviour
     public GameObject primeraPantalla;
     public GameObject segundaPantalla;
     public GameObject terceraPantalla;
-    private int casillasCambiadas = 0;
+    public int casillasCambiadas = 0;
+    public int letrasCambiadas = 0;
 
     //casillas
     public Image primera_casilla;
@@ -26,6 +27,7 @@ public class GameManagerForm : MonoBehaviour
     public GameObject boton_siguiente2;
 
     //letras tercera pantalla
+    public Button boton_letra1;
     public Image letra_p;
     public Image letra_i;
     public Image letra_j;
@@ -51,6 +53,17 @@ public class GameManagerForm : MonoBehaviour
     public Sprite letra_U;
     public Sprite letra_J;
     public Sprite letra_O2;
+
+    //opciones tercera pantalla
+    public Button boton1;
+    public Button boton2;
+    public Button boton3;
+    public Button boton4;
+
+    public Sprite boton_normal;
+    public Sprite boton_seleccionado;
+
+    private Button botonActual = null;
 
     void Start()
     {
@@ -132,55 +145,130 @@ public class GameManagerForm : MonoBehaviour
         terceraPantalla.SetActive(true);
         rellenar_texto.text = "";
         rellenar_texto.ActivateInputField();
+        boton_letra1.onClick.AddListener(CambiarLetra1);
+        boton1.onClick.AddListener(SeleccionarBoton1);
+        boton2.onClick.AddListener(SeleccionarBoton2);
+        boton3.onClick.AddListener(SeleccionarBoton3);
+        boton4.onClick.AddListener(SeleccionarBoton4);
+        boton1.interactable = false;
+        boton2.interactable = false;
+        boton3.interactable = false;
+        boton4.interactable = false;
     }
 
     //cambiar letras
     public void CambiarLetra1()
     {
         letra_p.sprite = letra_T;
+        letrasCambiadas++;
+        ComprobarLetras();
     }
     public void CambiarLetra2()
     {
         letra_i.sprite = letra_I;
+        letrasCambiadas++;
+        ComprobarLetras();
     }
     public void CambiarLetra3()
     {
         letra_j.sprite = letra_P;
+        letrasCambiadas++;
+        ComprobarLetras();
     }
     public void CambiarLetra4()
     {
         letra_o.sprite = letra_O;
+        letrasCambiadas++;
+        ComprobarLetras();
     }
     public void CambiarLetra5()
     {
         letra_e.sprite = letra_D;
+        letrasCambiadas++;
+        ComprobarLetras();
     }
     public void CambiarLetra6()
     {
         letra_t.sprite = letra_E;
+        letrasCambiadas++;
+        ComprobarLetras();
     }
     public void CambiarLetra7()
     {
         letra_b.sprite = letra_D2;
+        letrasCambiadas++;
+        ComprobarLetras();
     }
     public void CambiarLetra8()
     {
         letra_o2.sprite = letra_I2;
+        letrasCambiadas++;
+        ComprobarLetras();
     }
     public void CambiarLetra9()
     {
         letra_d.sprite = letra_B;
+        letrasCambiadas++;
+        ComprobarLetras();
     }
     public void CambiarLetra10()
     {
         letra_u.sprite = letra_U;
+        letrasCambiadas++;
+        ComprobarLetras();
     }
     public void CambiarLetra11()
     {
         letra_d2.sprite = letra_J;
+        letrasCambiadas++;
+        ComprobarLetras();
     }
     public void CambiarLetra12()
     {
         letra_i2.sprite = letra_O2;
+        letrasCambiadas++;
+        ComprobarLetras();
     }
+
+    public void ComprobarLetras()
+    {
+        if (letrasCambiadas >= 12)
+        {
+            Debug.Log("Letras cambiadas: " + letrasCambiadas);
+            if (letrasCambiadas >=12)
+            {
+                Debug.Log("Desbloqueando botones");
+                boton1.interactable = true;
+                boton2.interactable = true;
+                boton3.interactable = true;
+                boton4.interactable = true;
+            }
+        }
+    }
+    public void SeleccionarBoton(Button boton)
+    {
+        if (botonActual != null)
+        {
+            botonActual.GetComponent<Image>().sprite = boton_normal;
+        }
+        botonActual = boton;
+        botonActual.GetComponent<Image>().sprite = boton_seleccionado;
+    }
+    public void SeleccionarBoton1() 
+    {
+        SeleccionarBoton(boton1);
+    }
+    public void SeleccionarBoton2()
+    {
+        SeleccionarBoton(boton2);
+    }
+    public void SeleccionarBoton3()
+    {
+        SeleccionarBoton(boton3);
+    }
+    public void SeleccionarBoton4()
+    {
+        SeleccionarBoton(boton4);
+    }
+    
 }

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d2bc65fa16a1d4cf0a23507206885af9
+guid: 0b862db7d53c84493b5ca44b5ba22a3f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 565200006797624642
-    second: "opcio\u0301n_2_0"
+      213: 7809157847302988670
+    second: i_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "opcio\u0301n_2_0"
+      name: i_0
       rect:
         serializedVersion: 2
-        x: 246
-        y: 1279
-        width: 73
-        height: 73
+        x: 1002
+        y: 1477
+        width: 46
+        height: 121
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2458830696ef7d700800000000000000
-      internalID: 565200006797624642
+      spriteID: e73e27bffa3bf5c60800000000000000
+      internalID: 7809157847302988670
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "opcio\u0301n_2_0": 565200006797624642
+      i_0: 7809157847302988670
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
