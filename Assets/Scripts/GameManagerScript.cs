@@ -94,6 +94,9 @@ public class GameManagerForm : MonoBehaviour
    public Button casilla_correcta3;
    public Button casilla_correcta4;
 
+   //quinta pantalla
+   public GameObject quinta_pantalla;
+
 
    void Start()
    {
@@ -101,6 +104,7 @@ public class GameManagerForm : MonoBehaviour
        segundaPantalla.SetActive(false);
        terceraPantalla.SetActive(false);
        cuarta_pantalla.SetActive(false);
+       quinta_pantalla.SetActive(false);
        boton_siguiente2.SetActive(false);
    }
 
@@ -377,4 +381,10 @@ public class GameManagerForm : MonoBehaviour
    {
        SeleccionarCorrecto(casilla_correcta4);
    }
+
+   public void IrAQuintaPantalla()
+    {
+        cuarta_pantalla.SetActive(false);
+        quinta_pantalla.SetActive(true);
+    }
 }
