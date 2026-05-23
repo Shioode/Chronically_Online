@@ -19,7 +19,10 @@ public class caida : MonoBehaviour
 
         if (rt.anchoredPosition.y < -600f)
         {
-            gameManager.PerderCorazon();
+            if (!esIncorrecto)
+            {
+                gameManager.PerderCorazon();
+            }
             Destroy(gameObject);
         }
     }
