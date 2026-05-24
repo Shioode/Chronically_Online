@@ -14,13 +14,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   lines:
   - speakerName: ???
-    text: "MakotoUchiha69 ha enviado un link:  \u26A1\uFE0F[Top MakotoUchiha69Prota
-      mejores OP del anime]\u26A1\uFE0F"
+    text: 'MakotoUchiha69 ha enviado un link:  [Top MakotoUchiha69Prota mejores OP
+      del anime]'
     portrait: {fileID: 0}
   - speakerName: MakotoUchiha69
-    text: todos sabemos q el top MakotoUchiha69 es una mierda
+    text: todos sabemos que el top MakotoUchiha69 es una mierda
     portrait: {fileID: -4425891229996489938, guid: 2c054cecc217faf4483a432981ccbc30, type: 3}
   - speakerName: EbonyDarkn3ss
-    text: a ver no se que te esperabas de alguien que solo ve shonen
+    text: "a ver, no s\xE9 qu\xE9 te esperabas de alguien que solo ve shonen..."
     portrait: {fileID: 1413505114078196444, guid: 40edb3bff1f1099428cee1fa957477e4, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: no vaya a ser que desarrollen emociones o algo
+    portrait: {fileID: 1413505114078196444, guid: 40edb3bff1f1099428cee1fa957477e4, type: 3}
+  - speakerName: 
+    text: " no s\xE9 para qu\xE9 miras eso si solo te va a picar"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\xA1\xA1\xA1\xA1\xA1est\xE1 vivo!!!!! :O"
+    portrait: {fileID: -4425891229996489938, guid: 2c054cecc217faf4483a432981ccbc30, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\xBFPero t\xFA no trabajabas?"
+    portrait: {fileID: 1413505114078196444, guid: 40edb3bff1f1099428cee1fa957477e4, type: 3}
+  - speakerName: 
+    text: ya no fml
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: " al menos ya no me pueden chillar en p\xFAblico"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: ' looooool f '
+    portrait: {fileID: -4425891229996489938, guid: 2c054cecc217faf4483a432981ccbc30, type: 3}
+  - speakerName: MakotoUchiha69
+    text: no me pasa
+    portrait: {fileID: -4425891229996489938, guid: 2c054cecc217faf4483a432981ccbc30, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: ' porque no has trabajado de nada formal en la vida...'
+    portrait: {fileID: 1413505114078196444, guid: 40edb3bff1f1099428cee1fa957477e4, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: also F
+    portrait: {fileID: 1413505114078196444, guid: 40edb3bff1f1099428cee1fa957477e4, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\xBFc\xF3mo se siente la vida del desempleado? "
+    portrait: {fileID: 1413505114078196444, guid: 40edb3bff1f1099428cee1fa957477e4, type: 3}
+  - speakerName: 
+    text: 'shhhhhh mi madre se va a cagar en todo '
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: 'shhhhhh mi madre se va a cagar en todo '
+    portrait: {fileID: 0}
   choices: []
