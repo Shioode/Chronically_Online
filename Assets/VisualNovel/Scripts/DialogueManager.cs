@@ -12,13 +12,7 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text speakerText;
     public TMP_Text dialogueText;
 
-    public Image portraitImageOtako;
-
-    public Image portraitImageGymbro;
-
-    public Image portraitImageGotica;
-
-    public Image portraitImageFurro;
+    public Image portraitImage;
 
     [Header("Choices UI")]
     [SerializeField]
@@ -98,10 +92,10 @@ public class DialogueManager : MonoBehaviour
     {
         speakerText.text = line.speakerName;
 
-        if (portraitImageOtako != null)
+        if (portraitImage != null)
         {
-            portraitImageOtako.sprite = line.portrait;
-            portraitImageOtako.enabled = line.portrait != null;
+            portraitImage.sprite = line.portrait;
+            portraitImage.enabled = line.portrait != null;
         }
 
         if (typeRoutine != null)

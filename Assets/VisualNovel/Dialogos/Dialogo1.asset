@@ -12,5 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ecf51cdea88d44458a0af657031e21b, type: 3}
   m_Name: Dialogo1
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
-  lines: []
+  lines:
+  - speakerName: ???
+    text: "MakotoUchiha69 ha enviado un link:  \u26A1\uFE0F[Top MakotoUchiha69Prota
+      mejores OP del anime]\u26A1\uFE0F"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: todos sabemos q el top MakotoUchiha69 es una mierda
+    portrait: {fileID: -4425891229996489938, guid: 2c054cecc217faf4483a432981ccbc30, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: a ver no se que te esperabas de alguien que solo ve shonen
+    portrait: {fileID: 1413505114078196444, guid: 40edb3bff1f1099428cee1fa957477e4, type: 3}
   choices: []

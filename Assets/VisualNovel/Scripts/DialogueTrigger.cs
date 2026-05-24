@@ -2,15 +2,11 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
 {
-    [SerializeField]
-    private DialogueData dialogueData;
-
-    [SerializeField]
-    private bool startOnInteract = true;
+    [SerializeField] private DialogueData dialogueData;
 
     public void TriggerDialogue()
     {
-        if (startOnInteract && DialogueManager.Instance != null)
+        if (DialogueManager.Instance != null)
         {
             DialogueManager.Instance.StartDialogue(dialogueData);
         }
