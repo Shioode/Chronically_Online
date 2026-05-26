@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
@@ -208,6 +209,6 @@ public class DialogueManager : MonoBehaviour
 
     public void OnMouseClickCambioGacha()
     {
-        //SceneManager.LoadScene("GachaScene");
+        SceneManager.LoadScene("GachaScene");
     }
 }

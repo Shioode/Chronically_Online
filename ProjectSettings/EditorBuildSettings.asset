@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/InicioScene.unity
     guid: 2047bb6e90f24b14d84a2ae148e2ae73
   - enabled: 1
-    path: Assets/Scenes/SpamScene.unity
-    guid: e0cf033d32bfa8f4b83900ff680eabf8
+    path: Assets/Scenes/ConversacionScene.unity
+    guid: a1bc3466aebc59e41a5fc69eb82f4112
   - enabled: 1
     path: Assets/Scenes/GachaScene.unity
     guid: 8dc2a7dfbff7f084b9022bd1f2c93176
+  - enabled: 1
+    path: Assets/Scenes/SpamScene.unity
+    guid: e0cf033d32bfa8f4b83900ff680eabf8
   - enabled: 1
     path: Assets/Scenes/furro.unity
     guid: b1671dad305733344ac26c690f964f3d
