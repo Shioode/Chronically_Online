@@ -205,4 +205,9 @@ public class DialogueManager : MonoBehaviour
         currentLines = null;
         currentIndex = 0;
     }
+
+    public void OnMouseClickCambioGacha()
+    {
+        //SceneManager.LoadScene("GachaScene");
+    }
 }
