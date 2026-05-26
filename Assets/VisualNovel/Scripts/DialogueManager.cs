@@ -15,6 +15,8 @@ public class DialogueManager : MonoBehaviour
 
     public GameObject botonFinal;
 
+    public GameObject botonSiguiente;
+
     public Image portraitImage;
 
     [Header("Choices UI")]
@@ -208,6 +210,11 @@ public class DialogueManager : MonoBehaviour
     }
 
     public void OnMouseClickCambioGacha()
+    {
+        SceneManager.LoadScene("GachaScene");
+    }
+
+    public void OnMouseClickConvTres()
     {
         SceneManager.LoadScene("GachaScene");
     }

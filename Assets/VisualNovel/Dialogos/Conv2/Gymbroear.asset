@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ecf51cdea88d44458a0af657031e21b, type: 3}
+  m_Name: Gymbroear
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: 
+    text: "Creo que me voy a terminar arrepintiendo \u201CPodr\xEDa madrugar, sufrir
+      y convertirme en alguien funcional si eso\u2026\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201C\xBFVes Ebo? Mejor que estar todo el dia jugando al LOL, si hasta
+      t\xFA lo sabes\u201D\r\n"
+    portrait: {fileID: 5521609904963937294, guid: 63bcf73f0675d4e41b8b8a894c8a12d9, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CYo ya no juego porque no tengo tiempo y la comunidad, no porque
+      me arregle la vida\u201D\r\n"
+    portrait: {fileID: -6173394557037535750, guid: afe1f47c1d14b3a4dac12880c450bf80, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: " \u201CLo que digas, pero ya ver\xE1s amigo], estar\xE1s mucho mejor si
+      sigues mi ejemplo de \xE9xito.\u201D\r\n"
+    portrait: {fileID: 5521609904963937294, guid: 63bcf73f0675d4e41b8b8a894c8a12d9, type: 3}
+  - speakerName: 
+    text: " \u201Cno me asustes\u2026\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CQue noooo, ya ver\xE1s\u201D"
+    portrait: {fileID: 5521609904963937294, guid: 63bcf73f0675d4e41b8b8a894c8a12d9, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CBueno, \xA1\xA1me voy a comer!!\u201D"
+    portrait: {fileID: 6698486588563270900, guid: 7b3d2586cb45bfe4e9fab0e19a0593fb, type: 3}
+  - speakerName: 
+    text: "\u201CAdi\xF3s.\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: " \u201C\xBFQu\xE9 te apuestas a que come pollo hervido con arroz blanco?\u201D"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: 
+    text: "\u201CPor favor no\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: " \u201CJa, ja, ja, ja, me voy a comer tambi\xE9n, te veo en un rato\u201D"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\xBFTe unes a ver anime despu\xE9s?\u201D \r\n"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  choices:
+  - choiceText: No
+    nextDialogue: {fileID: 11400000, guid: 07d47e0e999f4f2459c12b0f7da82ef6, type: 2}
+  - choiceText: Si
+    nextDialogue: {fileID: 11400000, guid: 675a928ff18c51b42bc4bedc9e596ec3, type: 2}
