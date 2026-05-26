@@ -21,6 +21,8 @@ public class DialogueElement
     [TextArea(3, 6)]
     public string texto;
 
+    //public string nombre;
+
     [Header("Flujo")]
     [Tooltip("Si está activo, el diálogo espera input del jugador antes de continuar")]
     public bool pausar;

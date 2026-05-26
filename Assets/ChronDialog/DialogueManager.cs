@@ -11,6 +11,8 @@ public class DialogueManager : MonoBehaviour
     [SerializeField]
     private TMP_Text textoDialogo;
 
+    ////private TMP_Text textoNombre;
+
     [SerializeField]
     private Button botonIzquierda;
 
@@ -71,6 +73,7 @@ public class DialogueManager : MonoBehaviour
         indiceActual = indice;
         DialogueElement elemento = dialogoActual.Elementos[indice];
 
+        //textoNombre.text = string.Empty;
         textoDialogo.text = string.Empty;
         imagenPersonaje.sprite = elemento.sprite;
         imagenPersonaje.gameObject.SetActive(elemento.sprite != null);
@@ -112,6 +115,8 @@ public class DialogueManager : MonoBehaviour
 
         foreach (char caracter in contenido)
         {
+            //textoNombre.text += caracter;
+
             textoDialogo.text += caracter;
 
             if (tiempoEntreCaracteres > 0f)
