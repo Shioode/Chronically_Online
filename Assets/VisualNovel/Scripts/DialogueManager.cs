@@ -12,6 +12,8 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text speakerText;
     public TMP_Text dialogueText;
 
+    public GameObject botonFinal;
+
     public Image portraitImage;
 
     [Header("Choices UI")]
@@ -52,6 +54,8 @@ public class DialogueManager : MonoBehaviour
 
     void Start()
     {
+        //botonFinal.SetActive(false);
+
         StartDialogue(Dialogos);
     }
 
@@ -84,6 +88,7 @@ public class DialogueManager : MonoBehaviour
         isOpen = true;
         dialoguePanel.SetActive(true);
         choicesPanel.SetActive(false);
+        botonFinal.SetActive(false);
 
         ShowLine(currentLines[currentIndex]);
     }
@@ -192,6 +197,7 @@ public class DialogueManager : MonoBehaviour
 
     private void EndDialogue()
     {
+        botonFinal.SetActive(true);
         isOpen = false;
         dialoguePanel.SetActive(false);
         choicesPanel.SetActive(false);
