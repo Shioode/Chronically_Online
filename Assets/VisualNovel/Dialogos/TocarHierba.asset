@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ecf51cdea88d44458a0af657031e21b, type: 3}
+  m_Name: TocarHierba
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: 
+    text: "\u201CPues no vendr\xEDa mal tocar hierba\u2026\u201D\r\n"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: " \u201CAh\xED ah\xED, podemos salir varios y de paso nos vemos las caras\u201D\r\n"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: 
+    text: "\u201CJa, ja, yeah\u201D\r\n"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CPues si lo hac\xE9is al final avisad, aunque dudo que vaya\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CClaro que no\u2026\u201D"
+    portrait: {fileID: -6173394557037535750, guid: afe1f47c1d14b3a4dac12880c450bf80, type: 3}
+  - speakerName: 
+    text: " \u201CTe ir\xE9 diciendo, voy a estar tirando CVs pero tal y como est\xE1
+      el tema dudo tener trabajo\u201D\r\n"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: " \u201C\xBFNo te vas a tomar un tiempo para ti entonces?\u201D\r\n"
+    portrait: {fileID: 3026516191082340819, guid: 8c6361e39224b04498bc68701dc0e314, type: 3}
+  - speakerName: 
+    text: " \u201CMe gustar\xEDa, pero  no creo que me pueda permitir ser un nini
+      demasiado tiempo\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CLo que t\xFA digas, me voy a dormir -3-\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: "\u201C\xBF\xBFAhora?? \xA1Pero si es por la ma\xF1ana!\u201D\r\n"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201C\xA1Hmp! lo dices como si no hubieras estado haciendo los mismo
+      durante a\xF1os\u201D\r\n"
+    portrait: {fileID: -6173394557037535750, guid: afe1f47c1d14b3a4dac12880c450bf80, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CBueno, como todos nosotros supongo\u201D\r\n"
+    portrait: {fileID: -6173394557037535750, guid: afe1f47c1d14b3a4dac12880c450bf80, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CBuenas nochees\u201D"
+    portrait: {fileID: 3964466543063010452, guid: b8d978cc7267f574e8faf94b712bce6e, type: 3}
+  - speakerName: MakotoUchiha69
+    text: " \u201CNight nighttttt UwU\u201D"
+    portrait: {fileID: -5538810942529525774, guid: a33738f2fe3bd9f41bb3279fa1a5f8a6, type: 3}
+  - speakerName: 
+    text: "\xBFQu\xE9 deber\xEDa hacer ahora? Supongo que no tengo nada m\xE1s que
+      hacer que buscar algunas ofertas de trabajo."
+    portrait: {fileID: 0}
+  choices: []
