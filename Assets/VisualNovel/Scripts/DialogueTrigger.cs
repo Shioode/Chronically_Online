@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
 {
-    [SerializeField] private DialogueData dialogueData;
+    [SerializeField]
+    private DialogueData dialogueData;
 
     public void TriggerDialogue()
     {
