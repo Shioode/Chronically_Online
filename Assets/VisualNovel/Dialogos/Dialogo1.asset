@@ -18,7 +18,7 @@ MonoBehaviour:
     portrait: {fileID: 0}
   - speakerName: MakotoUchiha69
     text: '"Todos sabemos que el top 1 es una mierda :b"'
-    portrait: {fileID: 7218355559680028166, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+    portrait: {fileID: -4425891229996489938, guid: 2c054cecc217faf4483a432981ccbc30, type: 3}
   - speakerName: EbonyDarkn3ss
     text: "a ver, no s\xE9 qu\xE9 te esperabas de alguien que solo ve shonen..."
     portrait: {fileID: 1413505114078196444, guid: 40edb3bff1f1099428cee1fa957477e4, type: 3}
