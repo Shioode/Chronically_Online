@@ -211,9 +211,4 @@ public class DialogueManager : MonoBehaviour
     {
         SceneManager.LoadScene("GachaScene");
     }
-
-    public void OnMouseClickConvTres()
-    {
-        SceneManager.LoadScene("SpamScene");
-    }
 }
