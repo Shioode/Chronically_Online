@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ecf51cdea88d44458a0af657031e21b, type: 3}
+  m_Name: Conv2
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: 
+    text: "Tal y como esperaba, nada me ha salido bien. No queda otra que seguir
+      intent\xE1ndolo pero es un poco frustrante. Si soy un pesado terminar\xE9 haciendo
+      algo con mi vida, \xBFno?"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: 'La semana que viene quedamos y ya veo si para entonces sigo siendo funcional
+      como ser humano.
+
+'
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "Parece que ya se est\xE1 acabando la ma\xF1ana, seguro que alguien habr\xE1
+      en el chat ahora.Voy a ver de qu\xE9 est\xE1n hablando."
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201C\xA1Anda! \u201C"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201C\xBFYa vuelves por aqu\xED? \xBFEres una persona funcional o necesitas
+      que te de alg\xFAn traje de h\xE9roe para coger fuerzas?\u201D"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201C\xBFYa vuelves por aqu\xED? \xBFEres una persona funcional o necesitas
+      que te de alg\xFAn traje de h\xE9roe para coger fuerzas?\u201D"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: 
+    text: "\u201CJa, ja\u2026 \xA1Qu\xE9 ilusi\xF3n! mi primer papel protagonista.\u201D\r\n"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: (Dario_OfDuty23 se ha unido al chat)
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: (Dario_OfDuty23 se ha unido al chat)
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: " \u201C\xA1\xBFQU\xC9 ES ESTO?!\u201D"
+    portrait: {fileID: 5521609904963937294, guid: 63bcf73f0675d4e41b8b8a894c8a12d9, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: " \u201C\xA1\xBFQU\xC9 ES ESTO?!\u201D"
+    portrait: {fileID: 5521609904963937294, guid: 63bcf73f0675d4e41b8b8a894c8a12d9, type: 3}
+  - speakerName: 
+    text: "De pronto me siento pesado \u201C\u2026\xBFhola?\u201D\r\n"
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CMe acabo de enterar de que has perdido el trabajo y est\xE1s aqu\xED\u2026
+      \xBFchateando?\u201D\r\n"
+    portrait: {fileID: -5629520258137542616, guid: 57b0ed940a3b7124b9e8d8312675581a, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CEst\xE1 socializando, eso es sano\u201D"
+    portrait: {fileID: -6173394557037535750, guid: afe1f47c1d14b3a4dac12880c450bf80, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CNo, lo sano es salir, correr, levantar peso y dejar de ser un sedentario,
+      \xA1como yo vamos!\u201D\r\n"
+    portrait: {fileID: -5629520258137542616, guid: 57b0ed940a3b7124b9e8d8312675581a, type: 3}
+  - speakerName: 
+    text: "\u201CSolo han pasado como 5 horas\u2026\u201D\r\n"
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CHermano, escucha: ma\xF1ana te levantas a las cinco de la ma\xF1ana
+      y a las 6 te saco de la cama, empezamos tu nueva vida.\u201D\r\n"
+    portrait: {fileID: 5521609904963937294, guid: 63bcf73f0675d4e41b8b8a894c8a12d9, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: " \u201CHazme caso, que soy un experto\u201D"
+    portrait: {fileID: 5521609904963937294, guid: 63bcf73f0675d4e41b8b8a894c8a12d9, type: 3}
+  - speakerName: 
+    text: "\u201CA esa hora todav\xEDa estoy muerto\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CNo todo el mundo tiene que vivir en modo gimnasio \xBFsabes?\u201D"
+    portrait: {fileID: 3964466543063010452, guid: b8d978cc7267f574e8faf94b712bce6e, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: " \u201CEso es una excusa, disciplina es motivaci\xF3n  y un cuerpo fuerte
+      es una  mente fuerte\u201D\r\n"
+    portrait: {fileID: 6698486588563270900, guid: 7b3d2586cb45bfe4e9fab0e19a0593fb, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CTambi\xE9n existe la mente tranquila sin obsesionarse con el cuerpo.\u201D"
+    portrait: {fileID: -6173394557037535750, guid: afe1f47c1d14b3a4dac12880c450bf80, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CNo es obsesi\xF3n, es mejorar\u201D\r\n"
+    portrait: {fileID: -5629520258137542616, guid: 57b0ed940a3b7124b9e8d8312675581a, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201C\xBFMejorar seg\xFAn qui\xE9n? \xBFT\xFA?\u201D\r\n"
+    portrait: {fileID: 3964466543063010452, guid: b8d978cc7267f574e8faf94b712bce6e, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: " \u201CNo todos est\xE1n en su mejor versi\xF3n\u201D"
+    portrait: {fileID: 4446270891161247759, guid: 748bef39c5d1e5b42b9ebdd5bbf7f849, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: " \u201CEsa \u201Cmejor versi\xF3n\u201D no es solo m\xFAsculo, t\xEDo,
+      tambi\xE9n es estar c\xF3modo contigo mismo\u201D\r\n"
+    portrait: {fileID: -6173394557037535750, guid: afe1f47c1d14b3a4dac12880c450bf80, type: 3}
+  - speakerName: 
+    text: "\u201CYo estoy c\xF3modo\u2026 tumbado\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: " \u201CY ese es precisamente el problema\u201D\r\n"
+    portrait: {fileID: 4446270891161247759, guid: 748bef39c5d1e5b42b9ebdd5bbf7f849, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: " \u201C\xA1O no!\u201D\r\n"
+    portrait: {fileID: 3026516191082340819, guid: 8c6361e39224b04498bc68701dc0e314, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: " \u201CAdem\xE1s, estar\xE1 pasando un mal momento y necesitar\xE1 ir
+      a su ritmo, no al nuestro\u201D"
+    portrait: {fileID: 3026516191082340819, guid: 8c6361e39224b04498bc68701dc0e314, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CY su ritmo es\u2026 \xBFquedarse en casa viendo anime?\u201D"
+    portrait: {fileID: -5629520258137542616, guid: 57b0ed940a3b7124b9e8d8312675581a, type: 3}
+  - speakerName: 
+    text: "\u201C\xA1Oye! el anime te puede dar desarrollo de personaje.\u201D Siento
+      que le he copiado esa frase a otra persona.\r\n"
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: " \u201CPffff, t\xFA lo que necesitas desarrollo real\u201D "
+    portrait: {fileID: 6698486588563270900, guid: 7b3d2586cb45bfe4e9fab0e19a0593fb, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CTambi\xE9n puede salir, quedar con amigos, hacer cosas que le gusten\u2026
+      No todo es levantar pesas y ser un cachas\u201D "
+    portrait: {fileID: -6173394557037535750, guid: afe1f47c1d14b3a4dac12880c450bf80, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: " \u201CPero ayuda mucho m\xE1s que quedarse encerrado\u201D"
+    portrait: {fileID: 5521609904963937294, guid: 63bcf73f0675d4e41b8b8a894c8a12d9, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CNo creo que precisamente t\xFA de todos seas de mucha ayuda para
+      que se sienta bien consigo mismo\u201D"
+    portrait: {fileID: 3964466543063010452, guid: b8d978cc7267f574e8faf94b712bce6e, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: "\xA1Vale, propuesta final! Vienes conmigo una semana , pruebas y, si no
+      te gusta, te dejo en paz.\u201D"
+    portrait: {fileID: 5521609904963937294, guid: 63bcf73f0675d4e41b8b8a894c8a12d9, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CY mi propuesta es: quedamos la semana que viene, plan tranquilo,
+      sin presi\xF3n, y decides t\xFA qu\xE9 te hace sentir mejor\u201D"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: 
+    text: " A ver\u2026"
+    portrait: {fileID: 0}
+  choices:
+  - choiceText: Vida de gymbro
+    nextDialogue: {fileID: 11400000, guid: a20c0d5ff9af55842a4079d66f4124c2, type: 2}
+  - choiceText: "Estoy mejor as\xED"
+    nextDialogue: {fileID: 11400000, guid: b68ef5632416d8349ab8a0747ff0e5d5, type: 2}
