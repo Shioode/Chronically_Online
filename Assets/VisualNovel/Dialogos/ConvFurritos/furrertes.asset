@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ecf51cdea88d44458a0af657031e21b, type: 3}
+  m_Name: furrertes
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: 
+    text: "Deber\xEDa estar cansado pero, al final, me siento m\xE1s animado que
+      ayer.\r\n"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "Hac\xEDa tiempo que no hablaba as\xED con ning\xFAn amigo, podr\xEDa intentar
+      repetirlo m\xE1s a menudo.\r\n"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: " A pesar de todo, pasar toda la noche hasta la ma\xF1ana despierto va
+      a afectar a mi cordura muy probablemente."
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: " \u201CLos ojos no coinciden\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CExpresividad\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201CExpresividad\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: " \u201DY el brazo es un tumor\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: ( Pinky_Melody se ha unido a la llamada)
+    portrait: {fileID: 0}
+  - speakerName: Pinky_Melody
+    text: " \u201CChicos ayuda urgente :(\u201C"
+    portrait: {fileID: -2223022178567404357, guid: 1c82264b293663447a143bb40f13967c, type: 3}
+  - speakerName: 
+    text: "\u201CHola Pinky\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CEstamos en algo importante ahora mismo\u201D"
+    portrait: {fileID: -8576269753853732610, guid: 49f8ef726cb140943aa2ed0a29db090a, type: 3}
+  - speakerName: Pinky_Melody
+    text: "\u201CMe han hackeado todo por una cosa de criptos :(\u201C"
+    portrait: {fileID: -2223022178567404357, guid: 1c82264b293663447a143bb40f13967c, type: 3}
+  - speakerName: 
+    text: "\u2026Vale, eso es m\xE1s urgente\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201DEeeeh, depende\u201D"
+    portrait: {fileID: -8576269753853732610, guid: 49f8ef726cb140943aa2ed0a29db090a, type: 3}
+  - speakerName: 
+    text: "\u201CNo depende\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Pinky_Melody
+    text: "\u201CNo puedo entrar a mis cuentas y estoy nervioso :(\u201C"
+    portrait: {fileID: -2223022178567404357, guid: 1c82264b293663447a143bb40f13967c, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201CMi dibujos tambi\xE9n necesitan ayuda :\u201D(\u201C"
+    portrait: {fileID: -8576269753853732610, guid: 49f8ef726cb140943aa2ed0a29db090a, type: 3}
+  - speakerName: 
+    text: "\u201CNo compares\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Pinky_Melody
+    text: "\u201D\xBFQu\xE9 hago? :(\u201C"
+    portrait: {fileID: -2223022178567404357, guid: 1c82264b293663447a143bb40f13967c, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201CYo te lo he pedido primero UnU\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: "\u201D...\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Pinky_Melody
+    text: " \u201CPorfa ayuda :(\u201C"
+    portrait: {fileID: -2223022178567404357, guid: 1c82264b293663447a143bb40f13967c, type: 3}
+  - speakerName: 
+    text: "\u201CGenial, dos crisis: una cerebral, otra real\u201D No me pagan lo
+      suficiente para esto"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: NO ME PAGAN NADA
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CVenga, que no tardas nada, es solo un momento\u201D\r\n"
+    portrait: {fileID: -5538810942529525774, guid: a33738f2fe3bd9f41bb3279fa1a5f8a6, type: 3}
+  - speakerName: 
+    text: " \u201CVale, vale\u2026\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: " \u201C\xA1Yep! Dime d\xF3n est\xE1n los errores de estos dibujos\u201D"
+    portrait: {fileID: -5538810942529525774, guid: a33738f2fe3bd9f41bb3279fa1a5f8a6, type: 3}
+  - speakerName: 
+    text: " \u201CLo que tengo que hacer a veces...\u201D"
+    portrait: {fileID: 0}
+  choices: []
