@@ -1,4 +1,5 @@
 using System;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,35 +9,37 @@ public class GachaSystem : MonoBehaviour
 {
     //PROBABILIDADES EN PORCENTAJES
 
-    [SerializeField]
-    private int commonChance = 95;
+    //[SerializeField]
+    //private int commonChance = 95;
 
     [SerializeField]
     private int rareChance = 5;
 
     //spublic GameObject boton;
 
-    GameObject Gacha;
+    public GameObject Gacha;
 
     public GameObject Contrato;
 
     public GameObject ImagenFail;
 
-    Animator controlAnimacion;
+    public GameObject Contratado;
 
-    Animator anim;
+    public GameObject panelAnimacion;
+
+    Animator controlAnimacion;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Gacha = GameObject.Find("pantallaGacha");
+        controlAnimacion = panelAnimacion.GetComponent<Animator>();
         //Contrato = GameObject.Find("contrato");
         //ImagenFail = GameObject.Find("todoMal");
         //Debug.Log(Contrato);
         ImagenFail.SetActive(false);
         Contrato.SetActive(false);
-        controlAnimacion = GetComponent<Animator>();
-        anim = GetComponent<Animator>();
+        Contratado.SetActive(false);
+        panelAnimacion.SetActive(false);
     }
 
     // Update is called once per frame
@@ -51,6 +54,8 @@ public class GachaSystem : MonoBehaviour
 
     public void PullGacha()
     {
+        controlAnimacion = panelAnimacion.GetComponent<Animator>();
+        panelAnimacion.SetActive(true);
         //Gacha.SetActive(false);
         //GENERAR NUMERO DE 0 A 100
 
@@ -60,19 +65,20 @@ public class GachaSystem : MonoBehaviour
 
         if (random > rareChance)
         {
+            Debug.Log("Random: " + random);
             //Gacha.SetActive(false);
-            controlAnimacion.SetTrigger("activaComun");
-            ImagenFail.SetActive(true);
-            Debug.Log("nadie te quiere, sigues siendo pobre.");
+            controlAnimacion.SetBool("ActivaComun", true);
+            //ImagenFail.SetActive(true);
+            //Debug.Log("nadie te quiere, sigues siendo pobre.");
 
-            OnRareReward();
+            //OnRareReward();
         }
         else
         {
             //Gacha.SetActive(false);
-            anim.SetTrigger("activaRare");
-            Contrato.SetActive(true);
-            Debug.Log("¡Conseguiste trabajo!");
+            controlAnimacion.SetBool("ActivaRare", true);
+            //Contrato.SetActive(true);
+            //Debug.Log("¡Conseguiste trabajo!");
 
             OnComonReward();
         }
@@ -92,5 +98,29 @@ public class GachaSystem : MonoBehaviour
     {
         //Contrato.SetActive(true);
         //Debug.Log("nadie te quiere, sigues siendo pobre.");
+    }
+
+    public void GachaSystemactivaFail()
+    {
+        ImagenFail.SetActive(true);
+        Debug.Log("nadie te quiere, sigues siendo pobre.");
+    }
+
+    public void GachaSystemactivaContrato()
+    {
+        Contrato.SetActive(true);
+        Debug.Log("¡Conseguiste trabajo!");
+    }
+
+    public void OnMouseClickContrato()
+    {
+        gameObject.SetActive(false);
+        Contrato.SetActive(false);
+        Contratado.SetActive(true);
+    }
+
+    public void OnMouseClickFinal()
+    {
+        Application.Quit();
     }
 }
