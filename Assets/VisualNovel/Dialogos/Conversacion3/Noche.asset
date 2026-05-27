@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ecf51cdea88d44458a0af657031e21b, type: 3}
+  m_Name: Noche
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: 
+    text: ...
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: Es de noche...
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: No han pasado ni 24 horas, pero parece que haya sido mas...
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\"\xBFEstas despierto?\""
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: (MakotoUchiha69 ha entrado al chat)
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CEstoy dibujando por?\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: "\u201CNada, que no pod\xEDa dormir :/ y eso\u2026\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CQue r\xE1pido has vuelto al horario de antes ja, ja, ja, ja. A\xFAn
+      estamos a tiempo de una partida si te apetece\""
+    portrait: {fileID: -5538810942529525774, guid: a33738f2fe3bd9f41bb3279fa1a5f8a6, type: 3}
+  - speakerName: 
+    text: "\u201CNah, me da pereza encender el pc ahora. Aunque t\xEDo, \xBFte acuerdas
+      cuando empezamos a jugar?\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201C\xBFEst\xE1bamos en segundo de la ESO no? Aunque ya te ense\xF1e
+      aquel anime cuando est\xE1bamos por terminar primaria\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: "\u201CSi, t\xFA ense\xF1\xE1ndome eso sin saber que seria ir cuesta abajo
+      y sin frenos con el anime ja, ja, ja, ja\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CSigo pensando que si no hubiese sido por aquella consola que nos
+      regalaron a los 6 a\xF1os, no estar\xEDamos aqu\xED\u201D"
+    portrait: {fileID: -8576269753853732610, guid: 49f8ef726cb140943aa2ed0a29db090a, type: 3}
+  - speakerName: 
+    text: "\u201CYeah eso definitivamente fue un antes y un despu\xE9s ja, ja, ja.
+      Tambi\xE9n el que estuvimos juntos hasta terminar la ESO\u201D\r\n"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CYeah eso \u201CY menos mal, porque \xBFyo? \xBFf\xFAtbol? \xBFfife?
+      no gracias\u201D \r\n"
+    portrait: {fileID: 770964363518036162, guid: 7e190e13ae52c134ba01ddbda9ad2217, type: 3}
+  - speakerName: 
+    text: "\u201CEso no lo dec\xEDas con Eleven Inazuma\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CEso es otra cosa y lo sabes!\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201CBtw, se que sonara raro y que las cosas son un poco mierda\u201D"
+    portrait: {fileID: -8576269753853732610, guid: 49f8ef726cb140943aa2ed0a29db090a, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201D Todos estamos tomando nuestros propios caminos, pero quiero que
+      sepas que estoy para lo que sea ,\xBFvale?\u201D"
+    portrait: {fileID: -8576269753853732610, guid: 49f8ef726cb140943aa2ed0a29db090a, type: 3}
+  - speakerName: 
+    text: '"..."'
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201CMe has dado diabetes. Pero te digo lo mismo\""
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\"Awww sab\xEDa que me querias\""
+    portrait: {fileID: -5538810942529525774, guid: a33738f2fe3bd9f41bb3279fa1a5f8a6, type: 3}
+  - speakerName: 
+    text: "\u201CSolo cuando no me ense\xF1as cosas como High School XD o lo que
+      sea de gooner que tengas por ah\xED\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201C\xA1OYE! Hay gooning culto e inculto \xBFvale?\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: '"Sure"'
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CMe juzgas pero bien que luego te lo sabes\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: "\u201CPorque no te callas duh, ja, ja, ja, ja. Si dejo de responder me
+      he dormido\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CDeja entonces el m\xF3vil y duerme o me reir\xE9 como sepa que te
+      ha vuelto a caer en la cara\u201D"
+    portrait: {fileID: 770964363518036162, guid: 7e190e13ae52c134ba01ddbda9ad2217, type: 3}
+  - speakerName: 
+    text: "\u201C\xA1UNA vez!\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\"\xA1Night night!\""
+    portrait: {fileID: -5538810942529525774, guid: a33738f2fe3bd9f41bb3279fa1a5f8a6, type: 3}
+  - speakerName: 
+    text: "\u201C...Buenas noches\u201D"
+    portrait: {fileID: 0}
+  choices: []

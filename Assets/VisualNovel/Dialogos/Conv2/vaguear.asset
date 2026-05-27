@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ecf51cdea88d44458a0af657031e21b, type: 3}
+  m_Name: vaguear
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: 
+    text: " \u201CPrefiero tomarlo con calma\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: " \u201CComo deber\xEDa ser\u201D"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CTotal, hoy en dia no cunde darse tanta ca\xF1a con todo.\u201D\r\n"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: " \u201CEso lo dir\xE1s t\xFA\u201D\r\n"
+    portrait: {fileID: 4446270891161247759, guid: 748bef39c5d1e5b42b9ebdd5bbf7f849, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201C\xBFTe has visto? vives en un zulo\u201D"
+    portrait: {fileID: 3964466543063010452, guid: b8d978cc7267f574e8faf94b712bce6e, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: " \u201CPero independizado, a diferencia de muchos\u201D\r\n"
+    portrait: {fileID: 4446270891161247759, guid: 748bef39c5d1e5b42b9ebdd5bbf7f849, type: 3}
+  - speakerName: MakotoUchiha69
+    text: (MakotoUchiha69 ha entrado al chat)
+    portrait: {fileID: 0}
+  - speakerName: Pinky_Melody
+    text: (Pinky_Melody ha entrado al chat)
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201CSi si, no me lo recuerdes\u2026\u201D\r\n"
+    portrait: {fileID: 0}
+  - speakerName: Pinky_Melody
+    text: "\u201CEntiendo\u2026 Si tienes alg\xFAn problema con el dinero me s\xE9
+      de un chico que te puede ayudar con un curso, si quieres te lo paso y le hablas
+      :)\u201D"
+    portrait: {fileID: -2223022178567404357, guid: 1c82264b293663447a143bb40f13967c, type: 3}
+  - speakerName: Pinky_Melody
+    text: "\u201C\xBFPor qu\xE9?\u201D"
+    portrait: {fileID: -2223022178567404357, guid: 1c82264b293663447a143bb40f13967c, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201CJa, ja, ja, ja, ya te van a volver a estafar\u201D"
+    portrait: {fileID: 770964363518036162, guid: 7e190e13ae52c134ba01ddbda9ad2217, type: 3}
+  - speakerName: EbonyDarkn33s
+    text: " \u201CNo deber\xEDas re\xEDrte de eso\u2026\u201D"
+    portrait: {fileID: -6173394557037535750, guid: afe1f47c1d14b3a4dac12880c450bf80, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: " \u201C\xBFEstamos aqu\xED para ver una frikada de las vuestras o para
+      hablar de los gustos a\xFAn m\xE1s raritos de este?\u201D\r\n"
+    portrait: {fileID: -5629520258137542616, guid: 57b0ed940a3b7124b9e8d8312675581a, type: 3}
+  - speakerName: EbonyDarkn33s
+    text: "\u201CA veces puedes ser tan desagradable\u2026\u201D\r\n"
+    portrait: {fileID: -6173394557037535750, guid: afe1f47c1d14b3a4dac12880c450bf80, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201C......... \u2026__\u2026\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201CMe aburro, \xBFempezamos o qu\xE9?\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201CEsta vez compartes t\xFA\u201D"
+    portrait: {fileID: -5538810942529525774, guid: a33738f2fe3bd9f41bb3279fa1a5f8a6, type: 3}
+  - speakerName: 
+    text: " \u201CVaya d\xEDa\u2026 Me sigue tocando pringar a mi entonces.\u201D\r\n"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CA\xFAn no hemos decidido que vamos a ver pero seguro que mi idea
+      va a ser la mejor\u201D\r\n"
+    portrait: {fileID: -5538810942529525774, guid: a33738f2fe3bd9f41bb3279fa1a5f8a6, type: 3}
+  - speakerName: 
+    text: " \u201CPues ahora voy\u2026\u201D"
+    portrait: {fileID: 0}
+  choices: []

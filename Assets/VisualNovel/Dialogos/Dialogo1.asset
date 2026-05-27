@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ecf51cdea88d44458a0af657031e21b, type: 3}
+  m_Name: Dialogo1
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: ???
+    text: 'MakotoUchiha69 ha enviado un link:  [Top 10 mejores OP del anime]'
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: '"Todos sabemos que el top 1 es una mierda :b"'
+    portrait: {fileID: -8576269753853732610, guid: 49f8ef726cb140943aa2ed0a29db090a, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CA ver, no s\xE9 qu\xE9 te esperabas de alguien que solo ve shonen,
+      no vaya a ser que desarrollen emociones o algo\u2026\u201D"
+    portrait: {fileID: 3026516191082340819, guid: 8c6361e39224b04498bc68701dc0e314, type: 3}
+  - speakerName: 
+    text: " \xBFEn serio? \xBFOtra vez lo mismo? \u201Cno s\xE9 para qu\xE9 miras
+      eso si solo te vas a picar\u2026\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201C\xA1\xA1\xA1\xA1\xA1est\xE1 vivo!!!!! :O\u201D"
+    portrait: {fileID: -5538810942529525774, guid: a33738f2fe3bd9f41bb3279fa1a5f8a6, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: " \u201C\xBFPero t\xFA no trabajabas?\u201D"
+    portrait: {fileID: 3964466543063010452, guid: b8d978cc7267f574e8faf94b712bce6e, type: 3}
+  - speakerName: 
+    text: " NO metas el dedo en la llaga por favor \u201Cya no\u2026 sorpresa, al
+      menos ya no me pueden chillar en p\xFAblico\u201D dicen que hay que ver las
+      cosas buenas, \xBFno?"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: " \u201Clooooool efe tioooo\u201D \r\n"
+    portrait: {fileID: 770964363518036162, guid: 7e190e13ae52c134ba01ddbda9ad2217, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201CNo me pasa\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CPorque no has trabajado de nada formal en la vida\u201D\r\n"
+    portrait: {fileID: -6173394557037535750, guid: afe1f47c1d14b3a4dac12880c450bf80, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: " \u201Clo siento por ti y eso\u2026 \xBFc\xF3mo se siente la vida del
+      desempleado?\u201D\r\n"
+    portrait: {fileID: 3026516191082340819, guid: 8c6361e39224b04498bc68701dc0e314, type: 3}
+  - speakerName: 
+    text: "\u201Cshhhhhh mi madre se va a cagar en todo\u201D aunque tampoco es que
+      ganara tanto\u2026 pero ahora menos "
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CPfff\u2026 Que le jodan a los caf\xE9s de 3 euros\u201D"
+    portrait: {fileID: -6173394557037535750, guid: afe1f47c1d14b3a4dac12880c450bf80, type: 3}
+  - speakerName: 
+    text: " \u201Cpero mi caf\xE9\u2026\u201D Necesito uno ahora mismo.\r\n"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: " \u201CJa, ja, ja, ja, eso no te pasar\xEDa si durmieras\u201D"
+    portrait: {fileID: 770964363518036162, guid: 7e190e13ae52c134ba01ddbda9ad2217, type: 3}
+  - speakerName: 
+    text: " \u201CCreo que no eres la mejor persona para hablar de eso\u201D "
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CHhmm ya,  pero no trabajo ja, ja, ja, ja\u201D "
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201C\xBFPor qu\xE9 somos tus amigos?\u201D "
+    portrait: {fileID: 3964466543063010452, guid: b8d978cc7267f574e8faf94b712bce6e, type: 3}
+  - speakerName: 
+    text: " \u201CBueno, bueno, \xBFno ten\xE9is nada m\xE1s que hacer?\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CEstoy bastante ocupada con el cosplay \xFAltimamente\u201D "
+    portrait: {fileID: 3026516191082340819, guid: 8c6361e39224b04498bc68701dc0e314, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201CSiempre est\xE1s ocupada con alg\xFAn cosplay.\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: MakotoUchiha69
+    text: " \u201C\xA1\xBFDe qu\xE9 es?!\u201D "
+    portrait: {fileID: -5538810942529525774, guid: a33738f2fe3bd9f41bb3279fa1a5f8a6, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CNo me apetece dec\xEDrtelo\u201D"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201CVaaaaa\u201D"
+    portrait: {fileID: -5538810942529525774, guid: a33738f2fe3bd9f41bb3279fa1a5f8a6, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: " \u201CNope\u201D"
+    portrait: {fileID: -6173394557037535750, guid: afe1f47c1d14b3a4dac12880c450bf80, type: 3}
+  - speakerName: MakotoUchiha69
+    text: " \u201C\xA1Hmp! pues ahora eres la \xFAnica ocupada, \xBFverdad?\u201D "
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: "\u201CYa\u2026 oficialmente soy un NPC sin empleo y con una madre que
+      me va a matar\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: " \u201CNaaaah, t\xF3matelo como un arco de personaje, t\xFA conf\xEDa,
+      arco de superaci\xF3n desempleo edition\u201D  "
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: " \u201Co arco de aguantar a tu madre otra vez\u201D"
+    portrait: {fileID: 3026516191082340819, guid: 8c6361e39224b04498bc68701dc0e314, type: 3}
+  - speakerName: 
+    text: "\u201C...\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CBtw gente, \xBF\xBF\xBFy si quedamos a ver algo??? no sirve de mucho
+      pero al menos sales de casa ja, ja, ja, ja\u201D"
+    portrait: {fileID: -5538810942529525774, guid: a33738f2fe3bd9f41bb3279fa1a5f8a6, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: " \u201C\xA1\xBFT\xFA queriendo salir?! \xBFqu\xE9 han hecho contigo?\u201D"
+    portrait: {fileID: 3964466543063010452, guid: b8d978cc7267f574e8faf94b712bce6e, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CAunque ahora que lo dices, la semana que viene la tengo bastante
+      libre\u201D\r\n"
+    portrait: {fileID: 3026516191082340819, guid: 8c6361e39224b04498bc68701dc0e314, type: 3}
+  - speakerName: 
+    text: " \u201CBueno, si me invitas\u2026\u201D\r\n"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CMiralo todo perrito faldero ja, ja, ja, ja\u201D"
+    portrait: {fileID: 770964363518036162, guid: 7e190e13ae52c134ba01ddbda9ad2217, type: 3}
+  - speakerName: 
+    text: "\u201C\xA1Oye!\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CTengo una sesi\xF3n de fotos a\xFAn no decidida pero podemos ver
+      que tal\u201D "
+    portrait: {fileID: 3026516191082340819, guid: 8c6361e39224b04498bc68701dc0e314, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201CBold of you to assume que voy a permitir que me de el sol\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: "\u201CBueno, ya veremos\u2026\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201C\xBFQu\xE9 preferir\xEDas hacer?\u201D"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  choices:
+  - choiceText: Plan de casa
+    nextDialogue: {fileID: 11400000, guid: b9d97fca994ed784488f5c6f7d160cad, type: 2}
+  - choiceText: Salir de paseo
+    nextDialogue: {fileID: 11400000, guid: cec7df4ec0503de45913e6847f999fb0, type: 2}
