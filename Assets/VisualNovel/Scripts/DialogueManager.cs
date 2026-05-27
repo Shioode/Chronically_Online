@@ -236,4 +236,9 @@ public class DialogueManager : MonoBehaviour
     {
         SceneManager.LoadScene("lluvia de ideas");
     }
+
+    public void OnMouseClickFinal()
+    {
+        SceneManager.LoadScene("InicioScene");
+    }
 }
