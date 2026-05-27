@@ -35,7 +35,7 @@ public class InicioScript : MonoBehaviour
 
     public void Inicio()
     {
-        SceneManager.LoadScene("SpamScene");
+        SceneManager.LoadScene("ConversacionScene");
     }
 
     public void exitGame()

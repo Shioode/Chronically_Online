@@ -2,6 +2,7 @@ using System;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using Random = UnityEngine.Random;
 
@@ -27,6 +28,8 @@ public class GachaSystem : MonoBehaviour
 
     public GameObject panelAnimacion;
 
+    //public GameObject Sig;
+
     Animator controlAnimacion;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -40,6 +43,7 @@ public class GachaSystem : MonoBehaviour
         Contrato.SetActive(false);
         Contratado.SetActive(false);
         panelAnimacion.SetActive(false);
+        //Sig.SetActive(false);
     }
 
     // Update is called once per frame
@@ -103,6 +107,7 @@ public class GachaSystem : MonoBehaviour
     public void GachaSystemactivaFail()
     {
         ImagenFail.SetActive(true);
+        //Sig.SetActive(true);
         Debug.Log("nadie te quiere, sigues siendo pobre.");
     }
 
@@ -121,6 +126,11 @@ public class GachaSystem : MonoBehaviour
 
     public void OnMouseClickFinal()
     {
-        Application.Quit();
+        SceneManager.LoadScene("InicioScene");
+    }
+
+    public void OnMouseClickSeguimos()
+    {
+        SceneManager.LoadScene("Conv2Scene");
     }
 }
