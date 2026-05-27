@@ -221,4 +221,9 @@ public class DialogueManager : MonoBehaviour
     {
         SceneManager.LoadScene("SpamScene");
     }
+
+    public void OnMouseClickConMedio()
+    {
+        SceneManager.LoadScene("Con3Scene");
+    }
 }
