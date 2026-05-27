@@ -253,8 +253,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Ir a p\xE1gina legal\n\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4e834b0da29626644b7d5c269aa4a5c3, type: 2}
-  m_sharedMaterial: {fileID: -2311929042685707088, guid: 4e834b0da29626644b7d5c269aa4a5c3, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: c66f07feef58bb34f863ed932ef25035, type: 2}
+  m_sharedMaterial: {fileID: 8030290536397224743, guid: c66f07feef58bb34f863ed932ef25035, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -284,7 +284,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
