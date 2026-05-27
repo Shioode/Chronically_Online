@@ -211,4 +211,9 @@ public class DialogueManager : MonoBehaviour
     {
         SceneManager.LoadScene("GachaScene");
     }
+
+    // public void OnMouseClickCambioDiaSiguiente()
+    // {
+    //     SceneManager.LoadScene("GachaScene");
+    // }
 }
