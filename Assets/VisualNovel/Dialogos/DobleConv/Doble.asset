@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ecf51cdea88d44458a0af657031e21b, type: 3}
+  m_Name: Doble
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: 
+    text: "Menos mal que se fueron\u2026 Al final siempre termino siendo su cuidador,
+      ni que fueran ni\xF1os peque\xF1os\u2026"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "Al menos esta tarde me van a dejar tranquilo, ellos por lo menos\u2026\r\n"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\xBFHabr\xE1 alguien con qui\xE9n hablar ahora?"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201COye, est\xE1s viva o te has fusionado ya con el cosplay?\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CSigo viva a medias, llevo tres horas intentando que una tela deje
+      de existir como concepto abstracto\u201D"
+    portrait: {fileID: -6173394557037535750, guid: afe1f47c1d14b3a4dac12880c450bf80, type: 3}
+  - speakerName: 
+    text: " \u201CEso suena caro\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: " \u201CEso suena a sufrimiento est\xE9tico\u201D"
+    portrait: {fileID: 3026516191082340819, guid: 8c6361e39224b04498bc68701dc0e314, type: 3}
+  - speakerName: 
+    text: "\u201C\xBFY qu\xE9 est\xE1s haciendo exactamente?\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CUn cosplay nuevo, oscuro, elegante y con presencia\u201D"
+    portrait: {fileID: 3026516191082340819, guid: 8c6361e39224b04498bc68701dc0e314, type: 3}
+  - speakerName: 
+    text: " \u201C\xBFEso significa negro?\u201D\r\n"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CEs posible que mucho negro\u201D\r\n"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: 
+    text: "\u201CLo ve\xEDa venir\u2026\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201DNo es \u201Cnegro\u201D, es negro con intenci\xF3n\u201D"
+    portrait: {fileID: 3026516191082340819, guid: 8c6361e39224b04498bc68701dc0e314, type: 3}
+  - speakerName: 
+    text: "\u201CAh, perd\xF3n\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: " \u201CNegro narrativo\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201C\xA1Exacto!\u201D"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: 
+    text: "\u201CYo hoy he sobrevivido otro d\xEDa sin trabajo\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CEso tambi\xE9n es est\xE9tica: decadencia contempor\xE1nea\u201D\r\n"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: 
+    text: "\u201CMe encanta c\xF3mo conviertes mis problemas en arte\u2026\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CTodo es arte si lo sufres lo suficiente\u201D"
+    portrait: {fileID: -6173394557037535750, guid: afe1f47c1d14b3a4dac12880c450bf80, type: 3}
+  - speakerName: 
+    text: "\u201CEntonces debo de ser una obra maestra\u201D\r\n"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CEres un borrador\u2026 interesante\u201D"
+    portrait: {fileID: 3964466543063010452, guid: b8d978cc7267f574e8faf94b712bce6e, type: 3}
+  - speakerName: 
+    text: "\u201CMe conformo\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201COye, la semana que viene seguimos con lo de quedar, \xBFno?\u201D\r\n"
+    portrait: {fileID: 3026516191082340819, guid: 8c6361e39224b04498bc68701dc0e314, type: 3}
+  - speakerName: 
+    text: "\u201CSi no me convierto en ermita\xF1o antes y puedo\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CNo te voy a dejar\u201D"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: 
+    text: "\u201C\xBFEs eso una amenaza???\r\n"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CLo es\u201D"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: 
+    text: "\u201CQu\xE9 vas a llevar?\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CA\xFAn no lo s\xE9, depende de si termino esto o abandono mi identidad
+      y me rindo\u201D"
+    portrait: {fileID: 3026516191082340819, guid: 8c6361e39224b04498bc68701dc0e314, type: 3}
+  - speakerName: 
+    text: " \u201CPlan s\xF3lido por lo que veo\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CSiempre\u201D"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CAunque por otro lado, necesitar\xEDa alguna ayudita con un teta
+      de cosplay, si pudieras\u2026\u201D"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: 
+    text: (Dario_OfDuty23 se ha unido al chat)
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CNecesito ayuda urgente\u201D\r\n"
+    portrait: {fileID: 4446270891161247759, guid: 748bef39c5d1e5b42b9ebdd5bbf7f849, type: 3}
+  - speakerName: 
+    text: "\u201CEsto ya empieza mal\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: " \u201CSorpr\xE9ndeme\u2026\u201D\r\n"
+    portrait: {fileID: -6173394557037535750, guid: afe1f47c1d14b3a4dac12880c450bf80, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CEs serio\u201D"
+    portrait: {fileID: 4446270891161247759, guid: 748bef39c5d1e5b42b9ebdd5bbf7f849, type: 3}
+  - speakerName: 
+    text: " \u201C\xBFM\xE1s serio que levantarme a las 6?\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CMucho m\xE1s\u201D"
+    portrait: {fileID: -5629520258137542616, guid: 57b0ed940a3b7124b9e8d8312675581a, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CLo dudo\u201D "
+    portrait: {fileID: 3026516191082340819, guid: 8c6361e39224b04498bc68701dc0e314, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CTengo que comprarle un regalo a mi novia\u201D\r\n"
+    portrait: {fileID: 5521609904963937294, guid: 63bcf73f0675d4e41b8b8a894c8a12d9, type: 3}
+  - speakerName: 
+    text: "\u201D\u2026\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201CNo era lo que esperaba\u201D "
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CEsto se va a poner interesante\u201D"
+    portrait: {fileID: 3964466543063010452, guid: b8d978cc7267f574e8faf94b712bce6e, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CNo tengo ni idea de qu\xE9 elegir\u201D"
+    portrait: {fileID: -5629520258137542616, guid: 57b0ed940a3b7124b9e8d8312675581a, type: 3}
+  - speakerName: 
+    text: "\u201CBro pidiendo ayuda emocional\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CEmocional no, no te equivoques, estrat\xE9gico\u201D "
+    portrait: {fileID: -5629520258137542616, guid: 57b0ed940a3b7124b9e8d8312675581a, type: 3}
+  - speakerName: 
+    text: "\u201CClaro\u2026\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CClaro\u2026\u201D"
+    portrait: {fileID: 3964466543063010452, guid: b8d978cc7267f574e8faf94b712bce6e, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: " \u201CNecesito algo que diga: \u201Csoy fuerte, pero tambi\xE9n atento\u201D"
+    portrait: {fileID: 5521609904963937294, guid: 63bcf73f0675d4e41b8b8a894c8a12d9, type: 3}
+  - speakerName: 
+    text: "\u201CUn ramo de pesas\u201D "
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CUn ata\xFAd elegante\u201D"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CEstoy hablando en serio\u201D"
+    portrait: {fileID: -5629520258137542616, guid: 57b0ed940a3b7124b9e8d8312675581a, type: 3}
+  - speakerName: 
+    text: " \u201CNosotros tambi\xE9n"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CBueno\u2026 casi\u201D"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: "\u201D\xBFMe vais a ayudar o no?\u201D"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  choices: []

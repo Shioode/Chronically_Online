@@ -221,4 +221,24 @@ public class DialogueManager : MonoBehaviour
     {
         SceneManager.LoadScene("SpamScene");
     }
+
+    public void OnMouseClickFurrificacion()
+    {
+        SceneManager.LoadScene("furro");
+    }
+
+    public void OnMouseClickGymbro()
+    {
+        SceneManager.LoadScene("BroLlamada");
+    }
+
+    public void OnMouseClickGotica()
+    {
+        SceneManager.LoadScene("lluvia de ideas");
+    }
+
+    public void OnMouseClickFinal()
+    {
+        SceneManager.LoadScene("InicioScene");
+    }
 }

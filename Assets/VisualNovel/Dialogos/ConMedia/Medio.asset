@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ecf51cdea88d44458a0af657031e21b, type: 3}
+  m_Name: Medio
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - speakerName: Dari_OfDuty23
+    text: "\u201C\xBF\xBF\xBFEl adblock???\u201D"
+    portrait: {fileID: -5629520258137542616, guid: 57b0ed940a3b7124b9e8d8312675581a, type: 3}
+  - speakerName: 
+    text: " \u201CEstuve limpiando y se me olvido ponerlo\u201D \r\n"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: " \u201C\xBFEn serio? \xBF\xBFtanto era??\u201D"
+    portrait: {fileID: 3964466543063010452, guid: b8d978cc7267f574e8faf94b712bce6e, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201CJa, ja, ja, ja, ja, \xA1Cu\xE1nto \xE9xito tienes con las mujeres!\u201D"
+    portrait: {fileID: 770964363518036162, guid: 7e190e13ae52c134ba01ddbda9ad2217, type: 3}
+  - speakerName: 
+    text: "\u201CUff, a ver qu\xE9 podemos ver y os callais un poquito\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CYo quiero Nyan Sugar Neko Girls\u201D"
+    portrait: {fileID: -5538810942529525774, guid: a33738f2fe3bd9f41bb3279fa1a5f8a6, type: 3}
+  - speakerName: Dari_OfDuty23
+    text: "\u201CEso es basura, pon How I became the lord of the dungeon\u201D"
+    portrait: {fileID: -5629520258137542616, guid: 57b0ed940a3b7124b9e8d8312675581a, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\"\xBFPodemos poner algo decente por favor?"
+    portrait: {fileID: -6173394557037535750, guid: afe1f47c1d14b3a4dac12880c450bf80, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: Al final vou a acabar poniendo lo que me de las gana...
+    portrait: {fileID: 0}
+  choices: []
