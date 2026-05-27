@@ -33,7 +33,7 @@ public class timerScript : MonoBehaviour
         if (time_Left <= 0)
         {
             Debug.Log("Tiempo fuera!");
-            botonFinal.SetActive(false);
+            botonFinal.SetActive(true);
 
             time_Left = 0;
             StopAllCoroutines();
