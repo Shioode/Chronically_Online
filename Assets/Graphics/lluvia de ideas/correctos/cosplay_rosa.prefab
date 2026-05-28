@@ -37,8 +37,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -12.281, y: 65.37622}
-  m_SizeDelta: {x: 228, y: 221}
+  m_AnchoredPosition: {x: -42.150017, y: 68.45099}
+  m_SizeDelta: {x: 168.262, y: 214.8505}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7407429272753343981
 CanvasRenderer:
@@ -68,7 +68,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1302723820812287101, guid: 79283bfe8902f4bffb3e9aaa256579f2, type: 3}
+  m_Sprite: {fileID: 1302723820812287101, guid: ec41c3464d83b4299919914f63ff52c3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -147,6 +147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::caida
   velocidad: 200
+  esIncorrecto: 0
 --- !u!1 &2775882002717434852
 GameObject:
   m_ObjectHideFlags: 0
