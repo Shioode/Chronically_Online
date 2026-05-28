@@ -1,10 +1,10 @@
-using UnityEngine;
-using TMPro;
-using UnityEngine.UI;
 using System.Runtime.CompilerServices;
+using TMPro;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ScriptJuego : MonoBehaviour
-
 {
     private int PreguntaNum;
     public int AciertosNum;
@@ -19,6 +19,8 @@ public class ScriptJuego : MonoBehaviour
     public GameObject Button3;
     public static TextMeshProUGUI TextoDialogo;
 
+    public GameObject Botoncin;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -30,7 +32,7 @@ public class ScriptJuego : MonoBehaviour
         //Objetos3 = GameObject.Find("Objetos3");
         Objetos2.SetActive(false);
         Objetos3.SetActive(false);
-
+        Botoncin.SetActive(false);
     }
 
     // Update is called once per frame
@@ -42,13 +44,11 @@ public class ScriptJuego : MonoBehaviour
         Button2.SetActive(true);
         Button3.SetActive(true);
 
-
-        //código de preguntas 
+        //código de preguntas
         if (PreguntaNum == 1)
         {
             if (BotonNum == 1)
             {
-
                 BotonNum = 0;
                 TextoDialogo.text = "Que aburrido tío...";
                 Objetos1.SetActive(false);
@@ -56,7 +56,6 @@ public class ScriptJuego : MonoBehaviour
                 Debug.Log("BotonNum" + BotonNum);
                 PreguntaNum = PreguntaNum + 1;
             }
-
             else if (BotonNum == 2)
             {
                 AciertosNum = AciertosNum + 1;
@@ -67,24 +66,16 @@ public class ScriptJuego : MonoBehaviour
                 Debug.Log("BotonNum" + BotonNum);
                 PreguntaNum = PreguntaNum + 1;
             }
-
-
             else if (BotonNum == 3)
             {
-
                 BotonNum = 0;
                 TextoDialogo.text = "Que aburrido tío...";
                 Objetos1.SetActive(false);
                 Objetos2.SetActive(true);
                 Debug.Log("BotonNum" + BotonNum);
                 PreguntaNum = PreguntaNum + 1;
-
             }
-
-
         }
-
-
         else if (PreguntaNum == 2)
         {
             if (BotonNum == 1)
@@ -96,7 +87,6 @@ public class ScriptJuego : MonoBehaviour
                 Objetos2.SetActive(false);
                 Objetos3.SetActive(true);
             }
-
             else if (BotonNum == 2)
             {
                 PreguntaNum = PreguntaNum + 1;
@@ -105,8 +95,6 @@ public class ScriptJuego : MonoBehaviour
                 Objetos2.SetActive(false);
                 Objetos3.SetActive(true);
             }
-
-
             else if (BotonNum == 3)
             {
                 PreguntaNum = PreguntaNum + 1;
@@ -116,8 +104,6 @@ public class ScriptJuego : MonoBehaviour
                 Objetos3.SetActive(true);
             }
         }
-
-
         else if (PreguntaNum == 3)
         {
             if (BotonNum == 1)
@@ -127,17 +113,13 @@ public class ScriptJuego : MonoBehaviour
                 TextoDialogo.text = "EWW";
                 Objetos3.SetActive(false);
             }
-
             else if (BotonNum == 2)
             {
-
                 PreguntaNum = PreguntaNum + 1;
                 BotonNum = 0;
                 TextoDialogo.text = "EWW";
                 Objetos3.SetActive(false);
             }
-
-
             else if (BotonNum == 3)
             {
                 AciertosNum = AciertosNum + 1;
@@ -149,7 +131,6 @@ public class ScriptJuego : MonoBehaviour
         }
         else if (PreguntaNum == 4)
         {
-
             Button1.SetActive(false);
             Button2.SetActive(false);
             Button3.SetActive(false);
@@ -162,16 +143,23 @@ public class ScriptJuego : MonoBehaviour
             {
                 TextoDialogo.text = "Vaya mariconadas... gracias supongo.";
             }
-
-
-
         }
 
+        if (AciertosNum == 3)
+        {
+            Botoncin.SetActive(true);
+        }
     }
+
     void BotonPresionado(int _BotonNum)
     {
         BotonNum = _BotonNum;
         Debug.Log("Boton" + _BotonNum);
         Debug.Log("BotonNum" + BotonNum);
+    }
+
+    public void OnMouseClickSiguienteEscena()
+    {
+        SceneManager.LoadScene("Final");
     }
 }
