@@ -17,10 +17,8 @@ public class CreditosScript : MonoBehaviour
         SceneManager.LoadScene("InicioScene");
     }
 
-        public void OnMouseClickSalir()
+    public void OnMouseClickSalir()
     {
         Application.Quit();
-
     }
 }
-
