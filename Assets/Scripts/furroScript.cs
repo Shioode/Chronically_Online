@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class furroScript : MonoBehaviour
 {
@@ -59,5 +60,10 @@ public class furroScript : MonoBehaviour
             Zorrona.SetActive(false);
             Caballito.SetActive(true);
         }
+    }
+
+    public void OnMouseClickDoble()
+    {
+        SceneManager.LoadScene("ConDoble");
     }
 }

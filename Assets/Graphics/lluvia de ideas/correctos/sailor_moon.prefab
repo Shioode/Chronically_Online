@@ -205,7 +205,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 7854778797306503691, guid: aacbc6b87dfa548eb8d0fdb99c2a1ba7, type: 3}
+  m_Sprite: {fileID: 7854778797306503691, guid: ace69b9ed2bd242cd895ea23be8c03d5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -284,3 +284,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::caida
   velocidad: 200
+  esIncorrecto: 0
