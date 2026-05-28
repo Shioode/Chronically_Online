@@ -12,5 +12,395 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ecf51cdea88d44458a0af657031e21b, type: 3}
   m_Name: final
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
-  lines: []
-  choices: []
+  lines:
+  - speakerName: MakotoUchiha69
+    text: "\u201CVale, ya estoy \xBFSe me ve bien?\u201D"
+    portrait: {fileID: -5538810942529525774, guid: a33738f2fe3bd9f41bb3279fa1a5f8a6, type: 3}
+  - speakerName: 
+    text: "\u201CSe te ven\u2026 demasiadas cosas\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CConfirmo estoy viendo al menos tres figuras que no deber\xEDan mirarme
+      as\xED\u201D"
+    portrait: {fileID: 3964466543063010452, guid: b8d978cc7267f574e8faf94b712bce6e, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201CEs arte\u201D"
+    portrait: {fileID: -4425891229996489938, guid: 2c054cecc217faf4483a432981ccbc30, type: 3}
+  - speakerName: Pinky_Melody
+    text: "\u201DHolaaa :)\u201D"
+    portrait: {fileID: 7108591374017698542, guid: 1059667b8eca37b45842469454bb7133, type: 3}
+  - speakerName: 
+    text: "\u201C:\u2026vale, t\xFA no vives en una casa, vives en un parque tem\xE1tico\u201D"
+    portrait: {fileID: 3026516191082340819, guid: 8c6361e39224b04498bc68701dc0e314, type: 3}
+  - speakerName: Pinky_Melody
+    text: "\u201CEs mi sala de juegos :3\u201D"
+    portrait: {fileID: -4556911038910000449, guid: 4a7847a110f64c94a802395c9c7c2794, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201CEso es\u2026 una m\xE1quina arcade?\u201D"
+    portrait: {fileID: 3964466543063010452, guid: b8d978cc7267f574e8faf94b712bce6e, type: 3}
+  - speakerName: Pinky_Melody
+    text: "\u201CS\xED y tambi\xE9n tengo otra al fondo\u201D"
+    portrait: {fileID: 7108591374017698542, guid: 1059667b8eca37b45842469454bb7133, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CY yo cosiendo a mano\u2026 perfecto\u201D"
+    portrait: {fileID: -6173394557037535750, guid: afe1f47c1d14b3a4dac12880c450bf80, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: "\u201DYa estoy\u201D"
+    portrait: {fileID: 6698486588563270900, guid: 7b3d2586cb45bfe4e9fab0e19a0593fb, type: 3}
+  - speakerName: 
+    text: "\u201D\u2026\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201D\u2026\u201D"
+    portrait: {fileID: 770964363518036162, guid: 7e190e13ae52c134ba01ddbda9ad2217, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201D\u2026\u201D"
+    portrait: {fileID: -6173394557037535750, guid: afe1f47c1d14b3a4dac12880c450bf80, type: 3}
+  - speakerName: Pinky_Melody
+    text: "\u201D\u2026\u201D"
+    portrait: {fileID: -4556911038910000449, guid: 4a7847a110f64c94a802395c9c7c2794, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: "\u201D\xBFQu\xE9?\u201D"
+    portrait: {fileID: -5629520258137542616, guid: 57b0ed940a3b7124b9e8d8312675581a, type: 3}
+  - speakerName: 
+    text: "\u201CNo voy a ser el primero\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201DYo tampoco\u201D"
+    portrait: {fileID: 770964363518036162, guid: 7e190e13ae52c134ba01ddbda9ad2217, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CNi yo\u201D"
+    portrait: {fileID: -6173394557037535750, guid: afe1f47c1d14b3a4dac12880c450bf80, type: 3}
+  - speakerName: Pinky_Melody
+    text: "\u201DYo s\xED\u2026 \xBFeso es un collar de perro?\u201D"
+    portrait: {fileID: -2223022178567404357, guid: 1c82264b293663447a143bb40f13967c, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: "\u201C\u2026No\u201D"
+    portrait: {fileID: 4446270891161247759, guid: 748bef39c5d1e5b42b9ebdd5bbf7f849, type: 3}
+  - speakerName: 
+    text: "\u201CEst\xE1 literalmente colgado detr\xE1s de ti\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201DHD, 1080p, sin duda\u201D"
+    portrait: {fileID: 770964363518036162, guid: 7e190e13ae52c134ba01ddbda9ad2217, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CY bastante\u2026 est\xE9tico\u201D"
+    portrait: {fileID: 3026516191082340819, guid: 8c6361e39224b04498bc68701dc0e314, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CEs- no es lo que pens\xE1is\u201D"
+    portrait: {fileID: 5521609904963937294, guid: 63bcf73f0675d4e41b8b8a894c8a12d9, type: 3}
+  - speakerName: 
+    text: "\u201CNunca lo es\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Pinky_Melody
+    text: "\u201CEs bonito\u201D"
+    portrait: {fileID: -4556911038910000449, guid: 4a7847a110f64c94a802395c9c7c2794, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CNo ayudas\u201D"
+    portrait: {fileID: 4446270891161247759, guid: 748bef39c5d1e5b42b9ebdd5bbf7f849, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201COye\u2026 y esas bolsas\u2026\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: "\u201C\u2026No\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201C\u2026S\xED\u201D"
+    portrait: {fileID: 3964466543063010452, guid: b8d978cc7267f574e8faf94b712bce6e, type: 3}
+  - speakerName: Pinky_Melody
+    text: "\u201C\xBFComida de perro?\u201D"
+    portrait: {fileID: 7108591374017698542, guid: 1059667b8eca37b45842469454bb7133, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CNO!\u201C"
+    portrait: {fileID: 4446270891161247759, guid: 748bef39c5d1e5b42b9ebdd5bbf7f849, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201CParecen pienso\u201D"
+    portrait: {fileID: 770964363518036162, guid: 7e190e13ae52c134ba01ddbda9ad2217, type: 3}
+  - speakerName: 
+    text: "\u201CProte\xEDna sabor \u201Cpollo y arroz balanceado\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CCon extra de\u2026 disciplina\u201D"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CES PROTE\xCDNA\u201D"
+    portrait: {fileID: -5629520258137542616, guid: 57b0ed940a3b7124b9e8d8312675581a, type: 3}
+  - speakerName: Pinky_Melody
+    text: "\u201CPone \u201Chigh performance nutrition\u201D"
+    portrait: {fileID: -4556911038910000449, guid: 4a7847a110f64c94a802395c9c7c2794, type: 3}
+  - speakerName: 
+    text: "\u201CEso tambi\xE9n lo pone en el pienso premium\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: (...)
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CSois incre\xEDbles\u201D"
+    portrait: {fileID: -5629520258137542616, guid: 57b0ed940a3b7124b9e8d8312675581a, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201CBro, tienes collar y comida sospechosa en plano\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: "\u201CLa narrativa se escribe sola\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CEsto es mejor que cualquier cosplay\u201D"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CAl menos yo no tengo figuras raras mir\xE1ndome\u201D"
+    portrait: {fileID: -5629520258137542616, guid: 57b0ed940a3b7124b9e8d8312675581a, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201CRespeta el arte oye\u201D "
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CDice el que tiene una figura en bikini en primer plano\u201D"
+    portrait: {fileID: 3026516191082340819, guid: 8c6361e39224b04498bc68701dc0e314, type: 3}
+  - speakerName: Pinky_Melody
+    text: "\u201CYo tengo un traje tambi\xE9n\u201D"
+    portrait: {fileID: 6602879066421007053, guid: be8e1e29c72fc924a8209ed047fe81c4, type: 3}
+  - speakerName: 
+    text: "\u201CEso me preocupa\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201DEsto ha escalado muy r\xE1pido\u201D"
+    portrait: {fileID: 3026516191082340819, guid: 8c6361e39224b04498bc68701dc0e314, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: "\u201DVale, retiro lo del collar\u201D"
+    portrait: {fileID: 4446270891161247759, guid: 748bef39c5d1e5b42b9ebdd5bbf7f849, type: 3}
+  - speakerName: 
+    text: "\u201CGracias por eso eh\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CPor cierto, a ti\u2026 no se ve nada\u201D"
+    portrait: {fileID: 5521609904963937294, guid: 63bcf73f0675d4e41b8b8a894c8a12d9, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201CS\xED, \xBFest\xE1s en una cueva?\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: "\u201CEs mi habitaci\xF3n\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CNo se distingue nada\u201D"
+    portrait: {fileID: 6698486588563270900, guid: 7b3d2586cb45bfe4e9fab0e19a0593fb, type: 3}
+  - speakerName: Pinky_Melody
+    text: "\u201CEnciende la luz :(\u201C"
+    portrait: {fileID: -2223022178567404357, guid: 1c82264b293663447a143bb40f13967c, type: 3}
+  - speakerName: 
+    text: "\u201CVoyyy\u201C"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: '"..."'
+    portrait: {fileID: 3964466543063010452, guid: b8d978cc7267f574e8faf94b712bce6e, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201D\xBFEso es\u2026 ropa\u2026 o geograf\xEDa?\u201D"
+    portrait: {fileID: 770964363518036162, guid: 7e190e13ae52c134ba01ddbda9ad2217, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CEso es una instalaci\xF3n art\xEDstica\u201D"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CHermano, limpia\u201D"
+    portrait: {fileID: 4446270891161247759, guid: 748bef39c5d1e5b42b9ebdd5bbf7f849, type: 3}
+  - speakerName: Pinky_Melody
+    text: "\u201CYo te mando dinero si quieres :(\u201C"
+    portrait: {fileID: -2223022178567404357, guid: 1c82264b293663447a143bb40f13967c, type: 3}
+  - speakerName: 
+    text: "\u201CNo es falta de dinero, es falta de\u2026 orden vital\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201DTu habitaci\xF3n representa tu arco de desarrollo\u201D"
+    portrait: {fileID: 770964363518036162, guid: 7e190e13ae52c134ba01ddbda9ad2217, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\"Oscuro Ca\xF3tico Sin terminar\u201D"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: "\u201DNecesita disciplina\u201D"
+    portrait: {fileID: 6698486588563270900, guid: 7b3d2586cb45bfe4e9fab0e19a0593fb, type: 3}
+  - speakerName: 
+    text: "\u201DNecesita desaparecer\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201DVale\u2026 recuento: yo tengo figuras, Ebo tiene telas oscuras,
+      Pinky vive en un videojuego, Dario tiene\u2026 eso\u2026\u201D"
+    portrait: {fileID: -4425891229996489938, guid: 2c054cecc217faf4483a432981ccbc30, type: 3}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201DY no te olvides del que  vive en la nada\u201D"
+    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
+  - speakerName: Pinky_Melody
+    text: "\u201DA mi me gusta\u201D"
+    portrait: {fileID: 7108591374017698542, guid: 1059667b8eca37b45842469454bb7133, type: 3}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CSomos un desastre\u201D"
+    portrait: {fileID: 5521609904963937294, guid: 63bcf73f0675d4e41b8b8a894c8a12d9, type: 3}
+  - speakerName: 
+    text: "\u201CConfirmado\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: (...)
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "Ya es de noche...Obviamente s\xF3lo Makoto pensaba en quedarse despierto
+      toda la noche"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: '"Oye"'
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201DDime\u201D"
+    portrait: {fileID: -5538810942529525774, guid: a33738f2fe3bd9f41bb3279fa1a5f8a6, type: 3}
+  - speakerName: 
+    text: "\u201CEstoy viendo el chat de comisiones que me ense\xF1aste antes\u2026\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CNo deber\xEDas estar ah\xED\u201D"
+    portrait: {fileID: -8576269753853732610, guid: 49f8ef726cb140943aa2ed0a29db090a, type: 3}
+  - speakerName: 
+    text: "\u201CDemasiado tarde\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CGenial\u201D"
+    portrait: {fileID: -8576269753853732610, guid: 49f8ef726cb140943aa2ed0a29db090a, type: 3}
+  - speakerName: 
+    text: "\u201CCliente: Pinky_MelodyUwU\u201D?\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201D\u2026\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: " \u201CDime que no es quien creo que es\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CPuede ser coincidencia\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: "\u201CNo es coincidencia\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CHay muchos Pinky\u201D"
+    portrait: {fileID: -8576269753853732610, guid: 49f8ef726cb140943aa2ed0a29db090a, type: 3}
+  - speakerName: 
+    text: "\u201CY muchos Pinky_Melody con dinero, fursona y obsesi\xF3n por lo adorable\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201C\u2026\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: "Es Pinky_Melody\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201C \xC9l no lo sabe\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: "\u201CESO NO AYUDA\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CA m\xED si\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: "\u201DTe est\xE1 pidiendo un dibujo de su fursona?\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CCy\u201D"
+    portrait: {fileID: -4425891229996489938, guid: 2c054cecc217faf4483a432981ccbc30, type: 3}
+  - speakerName: 
+    text: "\u201D\u2026\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201D\u2026\u201D"
+    portrait: {fileID: -4425891229996489938, guid: 2c054cecc217faf4483a432981ccbc30, type: 3}
+  - speakerName: 
+    text: "\u201CY tu has aceptado?\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CCy\u201D"
+    portrait: {fileID: -4425891229996489938, guid: 2c054cecc217faf4483a432981ccbc30, type: 3}
+  - speakerName: 
+    text: "\u201CIncre\xEDble\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CPaga bien\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: "\u201CNo es el punto\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CEs bastante el punto\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: "\u201CQue te ha pedido exactamente?\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CAlgo bonito, suave, tierno, elegante\u2026 y rosa\u201D"
+    portrait: {fileID: -4425891229996489938, guid: 2c054cecc217faf4483a432981ccbc30, type: 3}
+  - speakerName: 
+    text: "\u201CEs literalmente Pinky describi\xE9ndose a s\xED mismo\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201DTambi\xE9n quiere ojos con brilli brilli\""
+    portrait: {fileID: -5538810942529525774, guid: a33738f2fe3bd9f41bb3279fa1a5f8a6, type: 3}
+  - speakerName: 
+    text: "\u201CVoy a fingir sorpresa\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201DTio, te das cuenta de lo raro que es esto?\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CUn poco\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: "\u201CTe est\xE1 pagando sin saber que eres tu????\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201DEs como\u2026 anonimato profesional\u201D"
+    portrait: {fileID: -8576269753853732610, guid: 49f8ef726cb140943aa2ed0a29db090a, type: 3}
+  - speakerName: 
+    text: "\u201CY qu\xE9 pasa cuando se entere?\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201DOye igual no se entera\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: "\u201CSe va a enterar. Somos incapaces de guardar secretos\u201D\r\n"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201D\u2026\u201D"
+    portrait: {fileID: -8576269753853732610, guid: 49f8ef726cb140943aa2ed0a29db090a, type: 3}
+  - speakerName: MakotoUchiha69
+    text: "\u201CIgual se lo toma bien\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: "\u201DTe centras en lo importante, veo\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CPero funciona\u201D"
+    portrait: {fileID: -8601036296743456369, guid: be0c7c0465317b945b3e951ae8f06383, type: 3}
+  - speakerName: 
+    text: "\u201CDe momento\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201CBueno no se tu, pero creo que es momento de dormir\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CPues buenas noches!!!\u201D"
+    portrait: {fileID: -4425891229996489938, guid: 2c054cecc217faf4483a432981ccbc30, type: 3}
+  - speakerName: 
+    text: '"Buenas noches"'
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: (...)
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "Ma\xF1ana es una nueva semana. La verdad es que no he logrado mucho. Mi
+      madre me va a dar por culo con lo del trabajo... "
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: Al menos he hablado con mis amigos.Quiza nos vemos cara a cara y todo.
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: Ha pasado mucho tiempo desde la ultima vez que quedamos todos
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: Seguramente no arregle nada. Pero...algo es algo supongo
+    portrait: {fileID: 0}
+  choices:
+  - choiceText: 
+    nextDialogue: {fileID: 0}
