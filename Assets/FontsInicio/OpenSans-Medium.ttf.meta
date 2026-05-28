@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0587ee2b5331edf4d9cb4524ecddeabc
+guid: cd7447c7053be474188b013db176545b
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Alte Haas Grotesk
+  - Open Sans
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
