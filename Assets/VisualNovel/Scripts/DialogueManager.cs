@@ -222,6 +222,11 @@ public class DialogueManager : MonoBehaviour
         SceneManager.LoadScene("SpamScene");
     }
 
+    public void OnMouseClickConvCFurros()
+    {
+        SceneManager.LoadScene("ConvFurros");
+    }
+
     public void OnMouseClickFurrificacion()
     {
         SceneManager.LoadScene("furro");
