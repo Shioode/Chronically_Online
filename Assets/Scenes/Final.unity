@@ -254,7 +254,7 @@ MonoBehaviour:
   m_text: Dormir
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
-  m_sharedMaterial: {fileID: 4599104401666709723, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
+  m_sharedMaterial: {fileID: 3110845212617102718, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -399,7 +399,7 @@ MonoBehaviour:
   m_text: New Text
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
-  m_sharedMaterial: {fileID: 4599104401666709723, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
+  m_sharedMaterial: {fileID: 3110845212617102718, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -661,7 +661,7 @@ MonoBehaviour:
   m_text: Button
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
-  m_sharedMaterial: {fileID: 4599104401666709723, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
+  m_sharedMaterial: {fileID: 3110845212617102718, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -865,7 +865,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 5937337556529920256, guid: 196591955b14257408ac5dd437a651ea, type: 3}
+  m_Sprite: {fileID: -5060245810786800053, guid: 7450f7c8b64a66148a0dbc8891a30042, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2032,7 +2032,7 @@ MonoBehaviour:
   m_text: Button
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
-  m_sharedMaterial: {fileID: 4599104401666709723, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
+  m_sharedMaterial: {fileID: 3110845212617102718, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
