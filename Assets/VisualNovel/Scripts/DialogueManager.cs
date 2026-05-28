@@ -239,12 +239,12 @@ public class DialogueManager : MonoBehaviour
 
     public void OnMouseClickGotica()
     {
-        SceneManager.LoadScene("lluvia de ideas");
+        SceneManager.LoadScene("Final");
     }
 
     public void OnMouseClickFinal()
     {
-        SceneManager.LoadScene("InicioScene");
+        SceneManager.LoadScene("creditosScene");
     }
 
     public void OnMouseClickCreditos()

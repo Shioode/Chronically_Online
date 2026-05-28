@@ -157,6 +157,6 @@ public class ScriptJuego : MonoBehaviour
 
     public void OnMouseClickSiguienteEscena()
     {
-        SceneManager.LoadScene("lluvia de ideas");
+        SceneManager.LoadScene("Final");
     }
 }
