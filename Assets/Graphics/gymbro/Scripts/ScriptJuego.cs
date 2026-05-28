@@ -160,6 +160,6 @@ public class ScriptJuego : MonoBehaviour
 
     public void OnMouseClickSiguienteEscena()
     {
-        SceneManager.LoadScene("Final");
+        SceneManager.LoadScene("creditosScene");
     }
 }
