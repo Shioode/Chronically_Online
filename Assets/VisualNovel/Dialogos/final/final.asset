@@ -12,5 +12,226 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ecf51cdea88d44458a0af657031e21b, type: 3}
   m_Name: final
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
-  lines: []
+  lines:
+  - speakerName: MakotoUchiha69
+    text: "\u201CVale, ya estoy \xBFSe me ve bien?\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201CSe te ven\u2026 demasiadas cosas\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CConfirmo estoy viendo al menos tres figuras que no deber\xEDan mirarme
+      as\xED\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CEs arte\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Pinky_Melody
+    text: "\u201DHolaaa :)\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201C:\u2026vale, t\xFA no vives en una casa, vives en un parque tem\xE1tico\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Pinky_Melody
+    text: "\u201CEs mi sala de juegos :3\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CEso es\u2026 una m\xE1quina arcade?\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Pinky_Melody
+    text: "\u201CS\xED y tambi\xE9n tengo otra al fondo\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CY yo cosiendo a mano\u2026 perfecto\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201DYa estoy\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201D\u2026\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201D\u2026\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201D\u2026\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Pinky_Melody
+    text: "\u201D\u2026\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201D\xBFQu\xE9?\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201CNo voy a ser el primero\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201DYo tampoco\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CNi yo\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Pinky_Melody
+    text: "\u201DYo s\xED\u2026 \xBFeso es un collar de perro?\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201C\u2026No\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201CEst\xE1 literalmente colgado detr\xE1s de ti\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201DHD, 1080p, sin duda\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CY bastante\u2026 est\xE9tico\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CEs- no es lo que pens\xE1is\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201CNunca lo es\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Pinky_Melody
+    text: "\u201CEs bonito\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CNo ayudas\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201COye\u2026 y esas bolsas\u2026\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201C\u2026No\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201C\u2026S\xED\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Pinky_Melody
+    text: "\u201C\xBFComida de perro?\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CNO!\u201C"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CParecen pienso\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201CProte\xEDna sabor \u201Cpollo y arroz balanceado\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CCon extra de\u2026 disciplina\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CES PROTE\xCDNA\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Pinky_Melody
+    text: "\u201CPone \u201Chigh performance nutrition\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201CEso tambi\xE9n lo pone en el pienso premium\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: (...)
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CSois incre\xEDbles\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CBro, tienes collar y comida sospechosa en plano\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201CLa narrativa se escribe sola\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CEsto es mejor que cualquier cosplay\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CAl menos yo no tengo figuras raras mir\xE1ndome\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CRespeta el arte oye\u201D "
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CDice el que tiene una figura en bikini en primer plano\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Pinky_Melody
+    text: "\u201CYo tengo un traje tambi\xE9n\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201CEso me preocupa\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201DEsto ha escalado muy r\xE1pido\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201DVale, retiro lo del collar\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201CGracias por eso eh\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CPor cierto, a ti\u2026 no se ve nada\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201CS\xED, \xBFest\xE1s en una cueva?\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201CEs mi habitaci\xF3n\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CNo se distingue nada\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Pinky_Melody
+    text: "\u201CEnciende la luz :(\u201C"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201CVoyyy\u201C"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: '"..."'
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201D\xBFEso es\u2026 ropa\u2026 o geograf\xEDa?\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201CEso es una instalaci\xF3n art\xEDstica\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CHermano, limpia\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Pinky_Melody
+    text: "\u201CYo te mando dinero si quieres :(\u201C"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201CNo es falta de dinero, es falta de\u2026 orden vital\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201DTu habitaci\xF3n representa tu arco de desarrollo\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\"Oscuro Ca\xF3tico Sin terminar\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201DNecesita disciplina\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201DNecesita desaparecer\u201D"
+    portrait: {fileID: 0}
+  - speakerName: MakotoUchiha69
+    text: "\u201DVale\u2026 recuento: yo tengo figuras, Ebo tiene telas oscuras,
+      Pinky vive en un videojuego, Dario tiene\u2026 eso\u2026\u201D"
+    portrait: {fileID: 0}
+  - speakerName: EbonyDarkn3ss
+    text: "\u201DY no te olvides del que  vive en la nada\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Pinky_Melody
+    text: "\u201DA mi me gusta\u201D"
+    portrait: {fileID: 0}
+  - speakerName: 
+    text: "\u201CConfirmado\u201D"
+    portrait: {fileID: 0}
+  - speakerName: Dario_OfDuty23
+    text: "\u201CSomos un desastre\u201D"
+    portrait: {fileID: 0}
   choices: []
