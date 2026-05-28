@@ -246,4 +246,9 @@ public class DialogueManager : MonoBehaviour
     {
         SceneManager.LoadScene("InicioScene");
     }
+
+    public void OnMouseClickCreditos()
+    {
+        SceneManager.LoadScene("creditosScene");
+    }
 }
