@@ -56,9 +56,9 @@ MonoBehaviour:
     fontStyleModifier: 0
     renderMode: 4117
     includeFontFeatures: 0
-  m_SourceFontFile: {fileID: 12800000, guid: ac4f6f9a1c6ef4ad5b7bcd12b04e8f47, type: 3}
+  m_SourceFontFile: {fileID: 0}
   m_SourceFontFilePath: 
-  m_AtlasPopulationMode: 1
+  m_AtlasPopulationMode: 0
   InternalDynamicOS: 0
   m_GlyphTable: []
   m_CharacterTable: []
@@ -208,7 +208,7 @@ Texture2D:
   m_MipsStripped: 0
   m_TextureFormat: 1
   m_MipCount: 1
-  m_IsReadable: 1
+  m_IsReadable: 0
   m_IsPreProcessed: 0
   m_IgnoreMipmapLimit: 1
   m_MipmapLimitGroupName: 
