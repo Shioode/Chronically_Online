@@ -35,7 +35,7 @@ MonoBehaviour:
     m_StrikethroughOffset: 18.8
     m_StrikethroughThickness: 4.5
     m_TabWidth: 25
-  m_Material: {fileID: 4599104401666709723}
+  m_Material: {fileID: 3553571928489815919}
   m_SourceFontFileGUID: 0587ee2b5331edf4d9cb4524ecddeabc
   m_CreationSettings:
     sourceFontFileName: 
@@ -63,7 +63,7 @@ MonoBehaviour:
   m_GlyphTable: []
   m_CharacterTable: []
   m_AtlasTextures:
-  - {fileID: 6853810681184602734}
+  - {fileID: 9004558444483509080}
   m_AtlasTextureIndex: 0
   m_IsMultiAtlasTexturesEnabled: 0
   m_GetFontFeatures: 1
@@ -80,104 +80,8 @@ MonoBehaviour:
     m_Height: 1023
   m_FontFeatureTable:
     m_MultipleSubstitutionRecords: []
-    m_LigatureSubstitutionRecords:
-    - m_ComponentGlyphIDs: 3500000000010000
-      m_LigatureGlyphID: 106
-    - m_ComponentGlyphIDs: 4c000000fd000000
-      m_LigatureGlyphID: 117
-    - m_ComponentGlyphIDs: 4c000000fe000000
-      m_LigatureGlyphID: 116
-    - m_ComponentGlyphIDs: 4c000000ff000000
-      m_LigatureGlyphID: 118
-    - m_ComponentGlyphIDs: 4c00000004010000
-      m_LigatureGlyphID: 119
-    - m_ComponentGlyphIDs: 2c000000fd000000
-      m_LigatureGlyphID: 207
-    - m_ComponentGlyphIDs: 2c000000fe000000
-      m_LigatureGlyphID: 105
-    - m_ComponentGlyphIDs: 2c000000ff000000
-      m_LigatureGlyphID: 204
-    - m_ComponentGlyphIDs: 2c00000004010000
-      m_LigatureGlyphID: 206
-    - m_ComponentGlyphIDs: 5a00000007010000
-      m_LigatureGlyphID: 250
-    - m_ComponentGlyphIDs: 5500000000010000
-      m_LigatureGlyphID: 124
-    - m_ComponentGlyphIDs: 56000000fd000000
-      m_LigatureGlyphID: 126
-    - m_ComponentGlyphIDs: 56000000fe000000
-      m_LigatureGlyphID: 125
-    - m_ComponentGlyphIDs: 56000000ff000000
-      m_LigatureGlyphID: 127
-    - m_ComponentGlyphIDs: 5600000000010000
-      m_LigatureGlyphID: 129
-    - m_ComponentGlyphIDs: 5600000004010000
-      m_LigatureGlyphID: 128
-    - m_ComponentGlyphIDs: 4a00000008010000
-      m_LigatureGlyphID: 115
-    - m_ComponentGlyphIDs: 48000000fd000000
-      m_LigatureGlyphID: 110
-    - m_ComponentGlyphIDs: 48000000fe000000
-      m_LigatureGlyphID: 109
-    - m_ComponentGlyphIDs: 48000000ff000000
-      m_LigatureGlyphID: 111
-    - m_ComponentGlyphIDs: 4800000000010000
-      m_LigatureGlyphID: 113
-    - m_ComponentGlyphIDs: 4800000004010000
-      m_LigatureGlyphID: 112
-    - m_ComponentGlyphIDs: 4800000005010000
-      m_LigatureGlyphID: 114
-    - m_ComponentGlyphIDs: 50000000fd000000
-      m_LigatureGlyphID: 121
-    - m_ComponentGlyphIDs: 50000000fe000000
-      m_LigatureGlyphID: 120
-    - m_ComponentGlyphIDs: 50000000ff000000
-      m_LigatureGlyphID: 122
-    - m_ComponentGlyphIDs: 5000000004010000
-      m_LigatureGlyphID: 123
-    - m_ComponentGlyphIDs: 5c000000fd000000
-      m_LigatureGlyphID: 131
-    - m_ComponentGlyphIDs: 5c000000fe000000
-      m_LigatureGlyphID: 130
-    - m_ComponentGlyphIDs: 5c000000ff000000
-      m_LigatureGlyphID: 132
-    - m_ComponentGlyphIDs: 5c00000004010000
-      m_LigatureGlyphID: 133
-    - m_ComponentGlyphIDs: 60000000fe000000
-      m_LigatureGlyphID: 251
-    - m_ComponentGlyphIDs: 6000000004010000
-      m_LigatureGlyphID: 190
-    m_GlyphPairAdjustmentRecords:
-    - m_FirstAdjustmentRecord:
-        m_GlyphIndex: 187
-        m_GlyphValueRecord:
-          m_XPlacement: 0
-          m_YPlacement: 0
-          m_XAdvance: -6.6600003
-          m_YAdvance: 0
-      m_SecondAdjustmentRecord:
-        m_GlyphIndex: 90
-        m_GlyphValueRecord:
-          m_XPlacement: 0
-          m_YPlacement: 0
-          m_XAdvance: 0
-          m_YAdvance: 0
-      m_FeatureLookupFlags: 0
-    - m_FirstAdjustmentRecord:
-        m_GlyphIndex: 187
-        m_GlyphValueRecord:
-          m_XPlacement: 0
-          m_YPlacement: 0
-          m_XAdvance: -1.6200001
-          m_YAdvance: 0
-      m_SecondAdjustmentRecord:
-        m_GlyphIndex: 91
-        m_GlyphValueRecord:
-          m_XPlacement: 0
-          m_YPlacement: 0
-          m_XAdvance: 0
-          m_YAdvance: 0
-      m_FeatureLookupFlags: 0
+    m_LigatureSubstitutionRecords: []
+    m_GlyphPairAdjustmentRecords: []
     m_MarkToBaseAdjustmentRecords: []
     m_MarkToMarkAdjustmentRecords: []
   m_ShouldReimportFontFeatures: 0
@@ -237,7 +141,7 @@ MonoBehaviour:
     kerningPairs: []
   fallbackFontAssets: []
   atlas: {fileID: 0}
---- !u!21 &4599104401666709723
+--- !u!21 &3553571928489815919
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 0
@@ -273,7 +177,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 6853810681184602734}
+        m_Texture: {fileID: 9004558444483509080}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OutlineTex:
@@ -310,9 +214,9 @@ Material:
     - _OutlineWidth: 0
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
-    - _ScaleRatioA: 0.9
-    - _ScaleRatioB: 0.73125
-    - _ScaleRatioC: 0.73125
+    - _ScaleRatioA: 1
+    - _ScaleRatioB: 1
+    - _ScaleRatioC: 1
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
@@ -346,7 +250,7 @@ Material:
     - _UnderlayColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!28 &6853810681184602734
+--- !u!28 &9004558444483509080
 Texture2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -386,7 +290,7 @@ Texture2D:
   m_ColorSpace: 1
   m_PlatformBlob: 
   image data: 1
-  _typelessdata: 00
+  _typelessdata: cd
   m_StreamData:
     serializedVersion: 2
     offset: 0

@@ -251,7 +251,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Continuar
+  m_text: 'Buscar errores
+
 
 
 '
@@ -557,7 +558,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2129968486}
         m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
-        m_MethodName: OnMouseClickConvTres
+        m_MethodName: OnMouseClickFurrificacion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -773,7 +774,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1398346245e5d37409e7468b94046aba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
-  dialogueData: {fileID: 11400000, guid: e1b19c0a0be98d14a95f5c5088f479a7, type: 2}
+  dialogueData: {fileID: 11400000, guid: 2455fc972c95cb94384e57509badb537, type: 2}
 --- !u!61 &549381416
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2093,7 +2094,7 @@ MonoBehaviour:
   - {fileID: 1969720240}
   - {fileID: 398711923}
   typeSpeed: 0.03
-  Dialogos: {fileID: 11400000, guid: e1b19c0a0be98d14a95f5c5088f479a7, type: 2}
+  Dialogos: {fileID: 11400000, guid: 2455fc972c95cb94384e57509badb537, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
