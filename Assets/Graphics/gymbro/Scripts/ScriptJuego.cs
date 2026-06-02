@@ -135,8 +135,6 @@ public class ScriptJuego : MonoBehaviour
             Button2.SetActive(false);
             Button3.SetActive(false);
 
-            Botoncin.SetActive(true);
-
             if (AciertosNum == 3)
             {
                 TextoDialogo.text = "Fua tío... Son perfectos. Cuando quieras te invito a algo.";
@@ -145,6 +143,11 @@ public class ScriptJuego : MonoBehaviour
             {
                 TextoDialogo.text = "Vaya mariconadas... gracias supongo.";
             }
+        }
+
+        if (AciertosNum == 3)
+        {
+            Botoncin.SetActive(true);
         }
     }
 
@@ -157,6 +160,6 @@ public class ScriptJuego : MonoBehaviour
 
     public void OnMouseClickSiguienteEscena()
     {
-        SceneManager.LoadScene("Final");
+        SceneManager.LoadScene("creditosScene");
     }
 }
