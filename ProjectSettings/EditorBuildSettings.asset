@@ -36,11 +36,14 @@ EditorBuildSettings:
     path: Assets/Scenes/BroLlamada.unity
     guid: 3a4c7f2839d2fde4ba94964d8f69187b
   - enabled: 1
-    path: Assets/Scenes/lluvia de ideas.unity
-    guid: f89466fa58e484b2b9b8e6441097fc1f
-  - enabled: 1
     path: Assets/Scenes/Final.unity
     guid: eef42f544759b0c45842849a8cdbe683
+  - enabled: 1
+    path: Assets/Scenes/creditosScene.unity
+    guid: 5007c24ce79df914caffe4615655267f
+  - enabled: 0
+    path: Assets/Scenes/lluvia de ideas.unity
+    guid: f89466fa58e484b2b9b8e6441097fc1f
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

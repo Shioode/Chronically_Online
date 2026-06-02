@@ -311,8 +311,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: ASIGNATURA
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
-  m_sharedMaterial: {fileID: 3553571928489815919, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -448,8 +448,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "GR\xC9DITOS"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
-  m_sharedMaterial: {fileID: 3553571928489815919, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -512,7 +512,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -20.123047, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -585,8 +585,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Taller de interacci\xF3n y videojuegos"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
-  m_sharedMaterial: {fileID: 3553571928489815919, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -876,8 +876,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: PROFESORES
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
-  m_sharedMaterial: {fileID: 3553571928489815919, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -940,7 +940,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -69.85669, y: 0, z: 0, w: 0}
+  m_margin: {x: -69.85669, y: 0, z: -42.465088, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1014,8 +1014,8 @@ MonoBehaviour:
   m_text: "Mariano Antonio B\xE1guena Bueso\nDiego Vicente Navarro Catal\xE1n\nMiguel
     Rangil Gallardo"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
-  m_sharedMaterial: {fileID: 3553571928489815919, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1151,8 +1151,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Salir del juego
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
-  m_sharedMaterial: {fileID: 3553571928489815919, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1670,8 +1670,8 @@ MonoBehaviour:
   m_text: "Alba Romero Lema\nDesir\xE9e Beltr\xE1n Cabanes\nAlba Dami\xE1n Mart\xEDnez\n\xC1frica
     Concha Ruiz"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
-  m_sharedMaterial: {fileID: 3553571928489815919, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1807,8 +1807,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Volver al inicio
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
-  m_sharedMaterial: {fileID: 3553571928489815919, guid: 1157a35f7a5c5ee4baf6e9b4ae0de38e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

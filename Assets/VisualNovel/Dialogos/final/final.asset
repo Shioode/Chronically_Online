@@ -401,6 +401,4 @@ MonoBehaviour:
   - speakerName: 
     text: Seguramente no arregle nada. Pero...algo es algo supongo
     portrait: {fileID: 0}
-  choices:
-  - choiceText: 
-    nextDialogue: {fileID: 0}
+  choices: []
