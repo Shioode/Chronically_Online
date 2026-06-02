@@ -388,7 +388,7 @@ MonoBehaviour:
   m_text: Button
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 45f9754dc4eefe6449e30d225c70f320, type: 2}
-  m_sharedMaterial: {fileID: -4803210829072100669, guid: 45f9754dc4eefe6449e30d225c70f320, type: 2}
+  m_sharedMaterial: {fileID: 5383092005073227725, guid: 45f9754dc4eefe6449e30d225c70f320, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1929,7 +1929,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

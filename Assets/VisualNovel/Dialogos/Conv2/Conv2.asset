@@ -35,10 +35,6 @@ MonoBehaviour:
     text: "\u201C\xBFYa vuelves por aqu\xED? \xBFEres una persona funcional o necesitas
       que te de alg\xFAn traje de h\xE9roe para coger fuerzas?\u201D"
     portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
-  - speakerName: EbonyDarkn3ss
-    text: "\u201C\xBFYa vuelves por aqu\xED? \xBFEres una persona funcional o necesitas
-      que te de alg\xFAn traje de h\xE9roe para coger fuerzas?\u201D"
-    portrait: {fileID: -7524853238701397633, guid: af605bb8ba0924743867c8ebf5c80345, type: 3}
   - speakerName: 
     text: "\u201CJa, ja\u2026 \xA1Qu\xE9 ilusi\xF3n! mi primer papel protagonista.\u201D\r\n"
     portrait: {fileID: 0}
@@ -46,12 +42,6 @@ MonoBehaviour:
     text: (Dario_OfDuty23 se ha unido al chat)
     portrait: {fileID: 0}
   - speakerName: 
-    text: (Dario_OfDuty23 se ha unido al chat)
-    portrait: {fileID: 0}
-  - speakerName: 
-    text: " \u201C\xA1\xBFQU\xC9 ES ESTO?!\u201D"
-    portrait: {fileID: 5521609904963937294, guid: 63bcf73f0675d4e41b8b8a894c8a12d9, type: 3}
-  - speakerName: Dario_OfDuty23
     text: " \u201C\xA1\xBFQU\xC9 ES ESTO?!\u201D"
     portrait: {fileID: 5521609904963937294, guid: 63bcf73f0675d4e41b8b8a894c8a12d9, type: 3}
   - speakerName: 
